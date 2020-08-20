@@ -24,7 +24,7 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
+                    title: 'Tom Hammer',
                     subTitle: 'YouTube channel',
                     imgSrc: youtube,
                     link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                     title: 'Evverest',
                     subTitle: 'A social network for developers',
                     imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://github.com/Tom Hammerlove8/evverest',
                     selected: false
                 },
             ]
