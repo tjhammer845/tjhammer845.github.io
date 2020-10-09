@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -12,58 +12,58 @@ import ContactPage from './pages/ContactPage';
 
 
 class App extends React.Component {
-  
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: 'Tom Hammer',
-      headerLinks: [
-        { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
-      ],
-      home: {
-        title: 'Be Relentless',
-        subTitle: 'Projects the make a difference',
-        text: 'Checkout my projects below'
-      },
-      about: {
-        title: 'About Me'
-      },
-      contact: {
-        title: 'Let\'s Talk'
-      }
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: 'Tom Hammer',
+            headerLinks: [
+                { title: 'Home', path: '/react-portfolio-tjh/' },
+                { title: 'About', path: '/react-portfolio-tjh/about' },
+                { title: 'Contact', path: '/react-portfolio-tjh/contact' }
+            ],
+            home: {
+                title: 'Be Relentless',
+                subTitle: 'Projects the make a difference',
+                text: 'Checkout my projects below'
+            },
+            about: {
+                title: 'About Me'
+            },
+            contact: {
+                title: 'Let\'s Talk'
+            }
+        }
     }
-  }
 
-  render() {
-    return (
-      <Router>
-        <Container className="p-0" fluid={true}>
-          
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Tom Hammer</Navbar.Brand>
+    render() {
+        return (
+            <Router>
+                <Container className="p-0" fluid={true}>
 
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+                    <Navbar className="border-bottom" bg="transparent" expand="lg">
+                        <Navbar.Brand>Tom Hammer</Navbar.Brand>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
-          
-          <Footer />
+                        <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+                        <Navbar.Collapse id="navbar-toggle">
+                            <Nav className="ml-auto">
+                                <Link className="nav-link" to="/">Home</Link>
+                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" to="/contact">Contact</Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Navbar>
 
-        </Container>
-      </Router>
-    );
-  }
+                    <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+                    <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+                    <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+
+                    <Footer />
+
+                </Container>
+            </Router>
+        );
+    }
 }
 
 export default App;
