@@ -2,7 +2,7 @@
     "homepage": ".",
     "name": "react-portfolio-tjh",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "dependencies": {
         "axios": "^0.19.2",
         "boostrap": "^2.0.0",
