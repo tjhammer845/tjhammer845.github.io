@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.a1b7b015.chunk.css",
-    "main.js": "./static/js/main.49effecb.chunk.js",
-    "main.js.map": "./static/js/main.49effecb.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/css/2.207c7e13.chunk.css": "./static/css/2.207c7e13.chunk.css",
-    "static/js/2.a35f245f.chunk.js": "./static/js/2.a35f245f.chunk.js",
-    "static/js/2.a35f245f.chunk.js.map": "./static/js/2.a35f245f.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.b6a9e1c61c9c55b07774eb2fe53616b3.js": "./precache-manifest.b6a9e1c61c9c55b07774eb2fe53616b3.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.207c7e13.chunk.css.map": "./static/css/2.207c7e13.chunk.css.map",
-    "static/css/main.a1b7b015.chunk.css.map": "./static/css/main.a1b7b015.chunk.css.map",
-    "static/media/devgrub.png": "./static/media/devgrub.bf79b675.png",
-    "static/media/evverest.png": "./static/media/evverest.3da49c68.png",
-    "static/media/youtube.png": "./static/media/youtube.0f423153.png"
+    "main.css": "/./static/css/main.a1b7b015.chunk.css",
+    "main.js": "/./static/js/main.7a31d2a1.chunk.js",
+    "main.js.map": "/./static/js/main.7a31d2a1.chunk.js.map",
+    "runtime~main.js": "/./static/js/runtime~main.5381c98e.js",
+    "runtime~main.js.map": "/./static/js/runtime~main.5381c98e.js.map",
+    "static/css/2.207c7e13.chunk.css": "/./static/css/2.207c7e13.chunk.css",
+    "static/js/2.a35f245f.chunk.js": "/./static/js/2.a35f245f.chunk.js",
+    "static/js/2.a35f245f.chunk.js.map": "/./static/js/2.a35f245f.chunk.js.map",
+    "index.html": "/./index.html",
+    "precache-manifest.20c7734eccb4b1543ca30983f8850aa2.js": "/./precache-manifest.20c7734eccb4b1543ca30983f8850aa2.js",
+    "service-worker.js": "/./service-worker.js",
+    "static/css/2.207c7e13.chunk.css.map": "/./static/css/2.207c7e13.chunk.css.map",
+    "static/css/main.a1b7b015.chunk.css.map": "/./static/css/main.a1b7b015.chunk.css.map",
+    "static/media/devgrub.png": "/./static/media/devgrub.bf79b675.png",
+    "static/media/evverest.png": "/./static/media/evverest.3da49c68.png",
+    "static/media/youtube.png": "/./static/media/youtube.0f423153.png"
   }
 }
