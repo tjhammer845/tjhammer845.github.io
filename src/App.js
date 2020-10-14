@@ -45,9 +45,8 @@ class App extends React.Component {
     }
     render() {
         return (
-            < Router >
+            <Router>
                 <Container className="p-0" fluid={true}>
-
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
                         <Navbar.Brand className="font-weight-bold">
                             <img className="main-logo" src={logo} alt="Logo" />
@@ -63,14 +62,11 @@ class App extends React.Component {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-
                     <Route path="/react-portfolio-tjh" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
                     <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
-
-                    <Footer />
-
                 </Container>
+                <Footer />
             </Router >
         );
     }

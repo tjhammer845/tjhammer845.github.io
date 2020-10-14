@@ -15,26 +15,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: "Dev Grub",
-                    subTitle: "The cookbook for developers",
+                    title: "Responsive UI keeps the collegiate world turning",
+                    subTitle: "Satisfying many users of the Yale MFA-DUO, CAS-SSO and NetID Management Applications.",
                     imgSrc: devgrub,
-                    link: "https://d.com",
-                    selected: false
+                    link: "https://veritas.its.yale.edu/netid/",
+                    selected: true
                 },
                 {
                     id: 1,
-                    title: "Tom Hammer",
-                    subTitle: "YouTube channel",
+                    title: "Websites should be bold and proud",
+                    subTitle: "Partners Bar and Nightclub is a long-lasting staple in New Haven nightlife and the LGBTQ Community.",
                     imgSrc: youtube,
-                    link: "https://www.youtube.com",
+                    link: "https://www.partnersnewhaven.com",
                     selected: false
                 },
                 {
                     id: 2,
-                    title: "Evverest",
-                    subTitle: "A social network for developers",
+                    title: "Fresh shine, fresh pup, fresh website to go",
+                    subTitle: "Buggy Car Wash and Barking Bath is the all-in-one spot for your car and dog maintenance.",
                     imgSrc: evverest,
-                    link: "https://github.com",
+                    link: "https://buggycarwash.com",
                     selected: false
                 }
             ]
