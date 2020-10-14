@@ -24,15 +24,15 @@ class App extends React.Component {
     state = {
         title: 'Tom Hammer',
         siteTitle: 'TH | Front-End Engineer and Digital Designer',
+        icon1: '<FontAwesomeIcon className="p-0" icon={faPencilRuler} />',
+        icon2: '<FontAwesomeIcon className="p-0" icon={faCode} />',
+        icon3: '<FontAwesomeIcon className="p-0" icon={faGrinWink} />',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
             { title: 'Contact', path: '/contact' }
         ],
         home: {
-            icon1: '<FontAwesomeIcon className="p-0" icon={faPencilRuler} />',
-            icon2: '<FontAwesomeIcon className="p-0" icon={faCode} />',
-            icon3: '<FontAwesomeIcon className="p-0" icon={faGrinWink} />',
             title: 'Creative, logical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
