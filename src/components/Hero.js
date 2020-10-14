@@ -3,6 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ReactHtmlParser from "react-html-parser";
 
 
 function Hero(props) {
@@ -15,6 +16,9 @@ function Hero(props) {
                         {props.title && <h2 className="display-1 font-weight-bolder">{props.title}</h2>}
                         {props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3>}
                         {props.text && <h4 className="lead font-weight-light">{props.text}</h4>}
+                        {ReactHtmlParser(props.home.icon1)}
+                        {ReactHtmlParser(props.home.icon2)}
+                        {ReactHtmlParser(props.home.icon3)}
                     </Col>
                 </Row>
             </Container>

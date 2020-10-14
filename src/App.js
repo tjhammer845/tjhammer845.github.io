@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import ReactHtmlParser from "react-html-parser";
 
 // fontawesome imports
 import { faCode } from "@fortawesome/free-solid-svg-icons";
@@ -30,7 +29,10 @@ class App extends React.Component {
             { title: 'Contact', path: '/contact' }
         ],
         home: {
-            title: 'Creative' + ReactHtmlParser('<FontAwesomeIcon className="p-0" icon={faCode} />') + ', logical, and slightly sarcastic.',
+            icon1: '<FontAwesomeIcon className="p-0" icon={faPencilRuler} />',
+            icon2: '<FontAwesomeIcon className="p-0" icon={faCode} />',
+            icon3: '<FontAwesomeIcon className="p-0" icon={faGrinWink} />',
+            title: 'Creative, logical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
         },
