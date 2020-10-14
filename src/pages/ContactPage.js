@@ -43,7 +43,7 @@ class ContactPage extends React.Component {
 
         Axios.post('http://localhost:3030/api/email', this.state)
             .then(res => {
-                if(res.data.success) {
+                if (res.data.success) {
                     this.setState({
                         disabled: false,
                         emailSent: true
@@ -68,7 +68,7 @@ class ContactPage extends React.Component {
 
 
     render() {
-        return(
+        return (
             <div>
                 <Hero title={this.props.title} />
 
@@ -88,7 +88,7 @@ class ContactPage extends React.Component {
 
                         <Form.Group>
                             <Form.Label htmlFor="message">Message</Form.Label>
-                            <Form.Control id="message" name="message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
+                            <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
 
 

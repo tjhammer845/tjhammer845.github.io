@@ -4,20 +4,12 @@ import Content from '../components/Content';
 
 function AboutPage(props) {
 
-    return(
+    return (
         <div>
             <Hero title={props.title} />
 
             <Content>
-            <p>Hello, my name is Tom Hammer. I'm a full stack engineer with experience in Angular, AngularJS, Express JS, Node JS, Oracle SQL, MongoDB, and React.</p>
-
-            <p>My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).</p>
-
-            <p>I'm constantly learning new things. currently those things include gaining more experience with MongoDB, React, Express JS, and Node JS</p>
-
-            <p>My latest project, Dev Grub, is a cookbook for developers. You can check it out <a href="https://devgrub.com" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage. It is built with Angular, MongoDB, Express JS, and Node JS. However, I will be rebuilding it using React in the coming months</p>
-
-            <p>When I'm not learning something new chances are I'm creating some YouTube videos. You can find those <a href="http://www.youtube.com/c/Tom HammerLove1" target="_blank" rel="noopener noreferrer">here</a></p>
+                <p className="lead">I am a front-end engineer focused on writing clean code and learning new web technologies. With an education and background in digital design, I understand the entire process of creating quality web applications from conception to completion. In the past, I’ve worked on a variety of web projects and gained invaluable experiences through daily operations within Information Technology and Creative. </p>
             </Content>
         </div>
     );
