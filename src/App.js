@@ -14,26 +14,24 @@ import ContactPage from './pages/ContactPage';
 
 class App extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: 'Tom Hammer | Front-End Engineer and Digital Designer',
-            headerLinks: [
-                { title: 'Home', path: '/react-portfolio-tjh' },
-                { title: 'About', path: '/about' },
-                { title: 'Contact', path: '/contact' }
-            ],
-            home: {
-                title: 'Creative, logical, technical, and slightly sarcastic',
-                subTitle: 'Web stuff with a brighter future in mind!',
-                text: 'Check out some of my work below'
-            },
-            about: {
-                title: 'About Tom'
-            },
-            contact: {
-                title: 'Let\'s Chat'
-            }
+
+    state = {
+        title: 'Tom Hammer | Front-End Engineer and Digital Designer',
+        headerLinks: [
+            { title: 'Home', path: '/react-portfolio-tjh' },
+            { title: 'About', path: '/about' },
+            { title: 'Contact', path: '/contact' }
+        ],
+        home: {
+            title: 'Creative, logical, technical, and slightly sarcastic',
+            subTitle: 'Web stuff with a brighter future in mind!',
+            text: 'Check out some of my work below'
+        },
+        about: {
+            title: 'About Tom'
+        },
+        contact: {
+            title: 'Let\'s Chat'
         }
     }
 
@@ -43,7 +41,7 @@ class App extends React.Component {
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand>Tom Hammer | <span className="bg-warning text-white">The Realest</span></Navbar.Brand>
+                        <Navbar.Brand>Tom Hammer | <span className="bg-warning text-white">&nbsp; The Realest &nbsp;</span></Navbar.Brand>
 
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">

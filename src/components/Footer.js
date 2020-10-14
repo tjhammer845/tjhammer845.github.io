@@ -21,8 +21,8 @@ function Footer() {
                         <FontAwesomeIcon icon={faTwitter} />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
-                        This site was made by Tom Hammer.
-                    </Col>
+                        &copy; 2020 Tom Hammer. All Rights Reserved.
+                </Col>
                 </Row>
             </Container>
         </footer>
