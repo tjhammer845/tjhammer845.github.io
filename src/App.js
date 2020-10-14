@@ -19,6 +19,7 @@ class App extends React.Component {
     state = {
         title: 'Tom Hammer',
         subtitle: 'Front-End Engineer and Digital Designer',
+        together: this.title + this.subtitle,
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
@@ -37,7 +38,7 @@ class App extends React.Component {
         }
     }
     componentDidMount() {
-        document.title = this.state.title
+        document.title = this.state.together
     }
     render() {
         return (
