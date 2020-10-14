@@ -36,16 +36,18 @@ class App extends React.Component {
             title: 'Let\'s Chat'
         }
     }
-
+    componentDidMount() {
+        document.title = this.state.title
+    }
     render() {
         return (
-            <Router>
+            < Router >
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
                         <Navbar.Brand className="font-weight-bold">
                             <img className="main-logo" src={logo} alt="Logo" />
-                            <h1 className="navbar-title">{this.state.title} |
+                            <h1 className="navbar-title">{this.state.title}
                                 <span className="font-italic">{this.state.subtitle}</span></h1>
                         </Navbar.Brand>
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
@@ -65,7 +67,7 @@ class App extends React.Component {
                     <Footer />
 
                 </Container>
-            </Router>
+            </Router >
         );
     }
 }
