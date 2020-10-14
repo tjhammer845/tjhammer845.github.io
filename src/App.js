@@ -18,7 +18,7 @@ class App extends React.Component {
 
     state = {
         title: 'Tom Hammer',
-        fullTitle: this.title.concat(" ", 'Front-End Engineer and Digital Designer'),
+        siteTitle: 'TH | Front-End Engineer and Digital Designer',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
@@ -37,7 +37,7 @@ class App extends React.Component {
         }
     }
     componentDidMount() {
-        document.title = this.state.fullTitle
+        document.title = this.state.siteTitle
     }
     render() {
         return (
