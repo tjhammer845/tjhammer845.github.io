@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import './App.css';
 
+import logo from './assets/images/logo.png'; // Tell webpack this JS file uses this image
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -23,9 +24,9 @@ class App extends React.Component {
             { title: 'Contact', path: '/contact' }
         ],
         home: {
-            title: 'Creative, logical, technical, and slightly sarcastic',
+            title: 'Creative, logical, technical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
-            text: 'Check out some of my work below'
+            text: 'Check out some of my work below.'
         },
         about: {
             title: 'About Tom'
@@ -41,7 +42,7 @@ class App extends React.Component {
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand>Tom Hammer | <span className="bg-warning text-white">&nbsp; The Realest &nbsp;</span></Navbar.Brand>
+                        <Navbar.Brand><img src={logo} alt="Logo" /> Tom Hammer </Navbar.Brand>
 
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
