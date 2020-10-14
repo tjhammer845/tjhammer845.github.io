@@ -1,4 +1,7 @@
 /*** Portfolio Website CSS ***/
+
+
+
 body {
     font-size: 16px;
 }
@@ -10,6 +13,10 @@ body {
 }
 footer {
     background: #bf2a2b;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
 }
 
 .App-header {

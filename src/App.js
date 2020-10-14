@@ -17,7 +17,8 @@ class App extends React.Component {
 
 
     state = {
-        title: 'Tom Hammer | Front-End Engineer and Digital Designer',
+        title: 'Tom Hammer',
+        subtitle: 'Front-End Engineer and Digital Designer',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
@@ -43,7 +44,10 @@ class App extends React.Component {
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
                         <Navbar.Brand className="font-weight-bold">
-                            <img className="main-logo" src={logo} alt="Logo" /> <font className="navbar-title">{this.state.title}</font></Navbar.Brand>
+                            <img className="main-logo" src={logo} alt="Logo" />
+                            <h1 className="navbar-title">{this.state.title} |
+                                <span className="font-italic">{this.state.subtitle}</span></h1>
+                        </Navbar.Brand>
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
