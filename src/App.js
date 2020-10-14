@@ -25,13 +25,13 @@ class App extends React.Component {
             home: {
                 title: 'Be Relentless',
                 subTitle: 'Projects the make a difference',
-                text: 'Checkout my projects below'
+                text: 'Checkout some of my work below'
             },
             about: {
-                title: 'About Me'
+                title: 'About Tom'
             },
             contact: {
-                title: 'Let\'s Talk'
+                title: 'Let\'s Chat'
             }
         }
     }
@@ -48,8 +48,8 @@ class App extends React.Component {
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
                                 <Link className="nav-link" to="/react-portfolio-tjh">Home</Link>
-                                <Link className="nav-link" to="/about">About</Link>
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                                <Link className="nav-link" to="/about">About Tom</Link>
+                                <Link className="nav-link" to="/contact">Let&rsquo;s Chat</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
