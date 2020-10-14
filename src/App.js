@@ -24,7 +24,7 @@ class App extends React.Component {
             { title: 'Contact', path: '/contact' }
         ],
         home: {
-            title: 'Creative, logical, technical, and slightly sarcastic.',
+            title: 'Creative, logical, technical and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
         },
@@ -42,7 +42,7 @@ class App extends React.Component {
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand><img src={logo} alt="Logo" /> Tom Hammer </Navbar.Brand>
+                        <Navbar.Brand><img className="img-thumbnail" src={logo} alt="Logo" /> Tom Hammer </Navbar.Brand>
 
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
