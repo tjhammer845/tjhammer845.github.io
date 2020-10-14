@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 // fontawesome imports
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ReactHtmlParser from "react-html-parser";
 
 import './App.css';
 
