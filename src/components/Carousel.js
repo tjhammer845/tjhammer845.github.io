@@ -2,8 +2,8 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import devgrub from "../assets/images/devgrub.png";
-import youtube from "../assets/images/youtube.png";
+import yaleUI from "../assets/images/yaleUI.png";
+import partnersNewHaven from "../assets/images/partnersNewHaven.png";
 import evverest from "../assets/images/evverest.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -17,15 +17,15 @@ class Carousel extends React.Component {
                     id: 0,
                     title: "Responsive UI keeps the collegiate world turning",
                     subTitle: "Satisfying many users of the Yale MFA-DUO, CAS-SSO and NetID Management Applications.",
-                    imgSrc: devgrub,
+                    imgSrc: yaleUI,
                     link: "https://veritas.its.yale.edu/netid/",
-                    selected: true
+                    selected: false
                 },
                 {
                     id: 1,
                     title: "Websites should be bold and proud",
                     subTitle: "Partners Bar and Nightclub is a long-lasting staple in New Haven nightlife and the LGBTQ Community.",
-                    imgSrc: youtube,
+                    imgSrc: partnersNewHaven,
                     link: "https://www.partnersnewhaven.com",
                     selected: false
                 },
