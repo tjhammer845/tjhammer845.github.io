@@ -4,6 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+// fontawesome imports
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import './App.css';
 
 import logo from './assets/images/logo.png'; // Tell webpack this JS file uses this image
@@ -25,7 +29,7 @@ class App extends React.Component {
             { title: 'Contact', path: '/contact' }
         ],
         home: {
-            title: 'Creative, logical, and slightly sarcastic.',
+            title: 'Creative <FontAwesomeIcon className="p-0" icon={faCode} />, logical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
         },
