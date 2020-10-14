@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import ReactHtmlParser from "react-html-parser";
 
 // fontawesome imports
 import { faCode } from "@fortawesome/free-solid-svg-icons";
