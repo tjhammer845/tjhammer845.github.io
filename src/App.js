@@ -31,7 +31,7 @@ class App extends React.Component {
         ],
         home: {
             icon1: '<FontAwesomeIcon className="p-0" icon={faCode} />',
-            title: 'Creative' + ReactHtmlParser(this.home.icon1) + ', logical, and slightly sarcastic.',
+            title: 'Creative' + ReactHtmlParser(this.state.home.icon1) + ', logical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
         },
