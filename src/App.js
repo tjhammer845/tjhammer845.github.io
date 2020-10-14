@@ -47,7 +47,7 @@ class App extends React.Component {
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
                         <Navbar.Brand className="font-weight-bold">
                             <img className="main-logo" src={logo} alt="Logo" />
-                            <h1 className="navbar-title">{this.state.title}
+                            <h1 className="d-inline-block navbar-title">{this.state.title}
                                 <span className="font-italic">{this.state.subtitle}</span></h1>
                         </Navbar.Brand>
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
