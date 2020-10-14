@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+
 import './App.css';
 
 import Footer from './components/Footer';
@@ -16,16 +17,16 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: 'Tom Hammer',
+            title: 'Tom Hammer | Front-End Engineer and Digital Designer',
             headerLinks: [
                 { title: 'Home', path: '/react-portfolio-tjh' },
                 { title: 'About', path: '/about' },
                 { title: 'Contact', path: '/contact' }
             ],
             home: {
-                title: 'Be Relentless',
-                subTitle: 'Projects the make a difference',
-                text: 'Checkout some of my work below'
+                title: 'Creative, logical, technical, and slightly sarcastic',
+                subTitle: 'Creating stuff for the web with a brighter future in mind!',
+                text: 'Check out some of my work below'
             },
             about: {
                 title: 'About Tom'
@@ -42,7 +43,7 @@ class App extends React.Component {
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand>Tom Hammer</Navbar.Brand>
+                        <Navbar.Brand>Tom Hammer | <span className="bg-warning text-white">The Realest</span></Navbar.Brand>
 
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
