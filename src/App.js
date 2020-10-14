@@ -42,14 +42,14 @@ class App extends React.Component {
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand className="font-weight-bold"><img className="main-logo" src={logo} alt="Logo" /> {this.state.title} </Navbar.Brand>
-
+                        <Navbar.Brand className="font-weight-bold">
+                            <img className="main-logo" src={logo} alt="Logo" /> <font className="navbar-title">{this.state.title}</font></Navbar.Brand>
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
-                                <Link className="nav-link" to="/react-portfolio-tjh">Home</Link>
-                                <Link className="nav-link" to="/about">About Tom</Link>
-                                <Link className="nav-link" to="/contact">Let&rsquo;s Chat</Link>
+                                <Link className="nav-link p-0 pl-md-4" to="/react-portfolio-tjh">Home</Link>
+                                <Link className="nav-link p-0 pl-md-4" to="/about">About</Link>
+                                <Link className="nav-link p-0" to="/contact">Let&rsquo;s Chat</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>

@@ -16,13 +16,13 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        <FontAwesomeIcon icon={faGithub} />
-                        <FontAwesomeIcon icon={faLinkedin} />
-                        <FontAwesomeIcon icon={faTwitter} />
+                        <FontAwesomeIcon className="text-white p-0 pr-md-4" icon={faGithub} />
+                        <FontAwesomeIcon className="text-white p-0 pr-md-4" icon={faLinkedin} />
+                        <FontAwesomeIcon className="text-white p-0" icon={faTwitter} />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
-                        &copy; 2020 Tom Hammer. All Rights Reserved.
-                </Col>
+                        <font className="text-white">&copy; 2020 Tom Hammer. All Rights Reserved.</font>
+                    </Col>
                 </Row>
             </Container>
         </footer>
