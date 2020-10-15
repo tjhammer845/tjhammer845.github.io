@@ -2,15 +2,12 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import yaleUI from "../assets/images/yaleUI.png";
-import partnersNewHaven from "../assets/images/partnersNewHaven.png";
-import buggy from "../assets/images/buggy.png";
+import yale from "../assets/images/yale.jpg";
+import partners from "../assets/images/partners.jpg";
+import buggy from "../assets/images/buggy.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { useSpring, animated } from 'react-spring';
 
-
-const style = useSpring({ opacity: 1, from: { opacity: 0 } });
 class Carousel extends React.Component {
     constructor(props) {
         super(props);
@@ -20,7 +17,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: "Responsive UI keeps the collegiate world turning",
                     subTitle: "Satisfying many users of the Yale MFA-DUO, CAS-SSO and NetID Management Applications.",
-                    imgSrc: yaleUI,
+                    imgSrc: yale,
                     link: "https://veritas.its.yale.edu/netid/",
                     selected: false
                 },
@@ -28,7 +25,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: "Websites should be bold and proud",
                     subTitle: "Partners Bar and Nightclub is a long-lasting staple in New Haven nightlife and the LGBTQ Community.",
-                    imgSrc: partnersNewHaven,
+                    imgSrc: partners,
                     link: "https://www.partnersnewhaven.com",
                     selected: false
                 },
@@ -64,7 +61,7 @@ class Carousel extends React.Component {
         return items.map(item => {
             return (
                 <Card
-                    item={item} style={style}
+                    item={item}
                     click={e => this.handleCardClick(item.id, e)}
                     key={item.id}
                 />
