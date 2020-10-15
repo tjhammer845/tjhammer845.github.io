@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9fe1c36e5319f4d13dcbca20fc19981",
+    "revision": "56be9929eb614b01ee4b74efd00d7bc6",
     "url": "/react-portfolio-tjh/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio-tjh/static/css/2.6414bb7b.chunk.css"
   },
   {
-    "revision": "320406269afda713afb4",
+    "revision": "1b4d9c50f3e85e4f8298",
     "url": "/react-portfolio-tjh/static/css/main.82045c12.chunk.css"
   },
   {
@@ -20,27 +20,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio-tjh/static/js/2.3dd91a8e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "320406269afda713afb4",
-    "url": "/react-portfolio-tjh/static/js/main.775a1381.chunk.js"
+    "revision": "1b4d9c50f3e85e4f8298",
+    "url": "/react-portfolio-tjh/static/js/main.db89ae27.chunk.js"
   },
   {
     "revision": "5231f34c82abe0eaebe3",
     "url": "/react-portfolio-tjh/static/js/runtime-main.4730b83a.js"
   },
   {
-    "revision": "461088f65916a75989727e8f7c012fac",
-    "url": "/react-portfolio-tjh/static/media/evverest.461088f6.png"
+    "revision": "f9e83391f91f9ee5a6cde34c5fb2eed3",
+    "url": "/react-portfolio-tjh/static/media/buggy.f9e83391.png"
   },
   {
     "revision": "86ab1e2cda1e7783108a871a6cc8bd4d",
     "url": "/react-portfolio-tjh/static/media/logo-white.86ab1e2c.png"
   },
   {
-    "revision": "c7d614e39a33a5273c84b655bbde7e21",
-    "url": "/react-portfolio-tjh/static/media/partnersNewHaven.c7d614e3.png"
+    "revision": "9fd429fefe5a30af04a313bf18875271",
+    "url": "/react-portfolio-tjh/static/media/partnersNewHaven.9fd429fe.png"
   },
   {
-    "revision": "4d0beac1e459024bff3ee68066b62665",
-    "url": "/react-portfolio-tjh/static/media/yaleUI.4d0beac1.png"
+    "revision": "70bd43feda4d5a82422f2e466f6fb9b6",
+    "url": "/react-portfolio-tjh/static/media/yaleUI.70bd43fe.png"
   }
 ]);
