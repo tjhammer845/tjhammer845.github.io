@@ -17,9 +17,15 @@ function Hero(props) {
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12} className="text-center">
-                        <ul>
-                            {props.tags.map((icon) => (<li key={icon}>{icon}</li>))}
-                        </ul>
+                        {props.events.map((event, index) => {
+                            return (
+                                <div key={index}>
+                                    <div
+                                        title={event.name}
+                                        id={event._id} />
+                                </div>
+                            )
+                        })}
 
                         {props.title && <h2 className="display-1 font-weight-bolder">{props.title}</h2>}
                         {props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3>}
