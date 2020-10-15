@@ -5,6 +5,9 @@
 body {
     font-size: 16px;
 }
+a {
+    color: #bf2a2b;
+}
 .color-red {
     color: #bf2a2b;
 }
@@ -31,6 +34,11 @@ body {
     background-repeat: no-repeat;
 }
 footer {
-    color: white;
     min-height: 60px;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #EEE;
 }
