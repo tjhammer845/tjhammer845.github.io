@@ -11,6 +11,10 @@ a {
 a:hover {
     color: #a72526
 }
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
 .color-red {
     color: #bf2a2b;
 }
@@ -37,6 +41,7 @@ a:hover {
     background-repeat: no-repeat;
 }
 footer {
+    box-shadow: 0px 0px 3px 1px #ccc;
     min-height: 60px;
 }
 footer a {
