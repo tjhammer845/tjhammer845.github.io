@@ -6,7 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 
 import './App.css';
 
-import logo from './assets/images/logo.png'; // Tell webpack this JS file uses this image
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
