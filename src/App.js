@@ -25,6 +25,7 @@ class App extends React.Component {
             { title: 'Contact', path: '/contact' }
         ],
         home: {
+            homeIcons: ['faPencilRuler', 'faCode', 'faGrinWink'],
             title: 'Creative, logical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
