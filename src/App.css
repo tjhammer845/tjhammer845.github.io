@@ -36,9 +36,12 @@ p {
 }
 .main-container {
     background-image: url("./assets/images/logo-white.png");
-    padding-bottom: 30rem;
-    background-position: bottom 9rem left;
+    padding-bottom: 13rem;
+    background-position: bottom 9rem left -6rem;
     background-repeat: no-repeat;
+    @media (max-width: 767px){
+        background-position: bottom 9rem center;
+    }
 }
 footer {
     box-shadow: 0px 0px 3px 1px #ccc;
