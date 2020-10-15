@@ -15,12 +15,11 @@ body {
     font-size: 1.5rem;
 }
 .main-container {
-    padding-bottom: 15rem;
-}
-footer {
-    min-height: 60px;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     background-image: url("./assets/images/logo-white.png");
     background-position: bottom left;
     background-repeat: no-repeat;
+}
+footer {
+    min-height: 60px;
 }
