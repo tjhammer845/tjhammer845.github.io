@@ -53,9 +53,9 @@ class App extends React.Component {
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
-                                <Link className="nav-link p-0 pl-md-4" to="/react-portfolio-tjh">Home</Link>
+                                <Link className="nav-link p-0" to="/react-portfolio-tjh">Home</Link>
                                 <Link className="nav-link p-0 pl-md-4" to="/about">About</Link>
-                                <Link className="nav-link p-0" to="/contact">Let&rsquo;s Chat</Link>
+                                <Link className="nav-link p-0 pl-md-4" to="/contact">Let&rsquo;s Chat</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
@@ -63,7 +63,7 @@ class App extends React.Component {
                     <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
                     <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
                 </Container>
-                <Footer />
+                <Footer className="fixed-bottom" />
             </Router >
         );
     }
