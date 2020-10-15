@@ -11,6 +11,9 @@ body {
 .bg-red {
     background-color: #bf2a2b;
 }
+.display-5 {
+    font-size: 2rem;
+}
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.25rem;
 }
@@ -28,5 +31,6 @@ body {
     background-repeat: no-repeat;
 }
 footer {
+    color: white;
     min-height: 60px;
 }
