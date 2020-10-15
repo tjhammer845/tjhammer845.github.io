@@ -43,7 +43,7 @@ class App extends React.Component {
     render() {
         return (
             <Router>
-                <Container className="p-0" fluid={true}>
+                <Container className="pb-5" fluid={true}>
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
                         <Navbar.Brand className="font-weight-bold">
                             <img className="main-logo" src={logo} alt="Logo" />
