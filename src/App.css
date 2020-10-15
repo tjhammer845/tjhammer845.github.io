@@ -5,6 +5,12 @@
 body {
     font-size: 16px;
 }
+.color-red {
+    color: #bf2a2b;
+}
+.bg-red {
+    background: #bf2a2b;
+}
 .main-logo {
   width: 140px;
 }
@@ -12,6 +18,7 @@ body {
     font-size: 1.5rem;
 }
 footer {
-    background: #bf2a2b;
     min-height: 60px;
+    padding-bottom: 10rem;
+    background: url("./assets/images/logo.png") bottom left no-repeat;
 }

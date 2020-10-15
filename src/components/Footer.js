@@ -4,20 +4,20 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // fontawesome imports
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
 
     return (
-        <footer className="mt-5 fixed-bottom">
+        <footer className="mt-5 fixed-bottom bg-red">
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        <FontAwesomeIcon className="text-white pr-2" icon={faGithub} />
-                        <FontAwesomeIcon className="text-white pr-2" icon={faLinkedin} />
+                        <FontAwesomeIcon className="text-white pr-2" icon={faGithubAlt} />
+                        <FontAwesomeIcon className="text-white pr-2" icon={faLinkedinIn} />
                         <FontAwesomeIcon className="text-white" icon={faTwitter} />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
