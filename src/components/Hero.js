@@ -16,7 +16,7 @@ function Hero(props) {
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <Col md={8} sm={12} className="text-center">
+                    <Col md={10} sm={12} className="text-center">
                         {props.title && <h2 className="display-1 font-weight-bolder">{props.title}</h2>}
                         <h2 className="display-4">
                             <FontAwesomeIcon className="p-2 color-red" icon={faPencilRuler} />
