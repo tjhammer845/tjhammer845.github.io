@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 
 // fontawesome imports
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
@@ -16,9 +17,9 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        <FontAwesomeIcon className="text-white pr-2" icon={faGithubAlt} />
-                        <FontAwesomeIcon className="text-white pr-2" icon={faLinkedinIn} />
-                        <FontAwesomeIcon className="text-white" icon={faTwitter} />
+                        <Link target="_blank" to="https://github.com/tjhammer845/"><FontAwesomeIcon className="display-4 text-white pr-2" icon={faGithubAlt} /></Link>
+                        <Link target="_blank" to="https://www.linkedin.com/in/thomasjhammer/"><FontAwesomeIcon className="display-4 text-white pr-2" icon={faLinkedinIn} /></Link>
+                        <Link target="_blank" to="https://twitter.com/tjhammer845"><FontAwesomeIcon className="display-4 text-white" icon={faTwitter} /></Link>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
                         <font className="text-white">&copy; 2020 Tom Hammer. All Rights Reserved.</font>

@@ -18,7 +18,7 @@ function Hero(props) {
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12} className="text-center">
                         {props.title && <h2 className="display-1 font-weight-bolder">{props.title}</h2>}
-                        <h2>
+                        <h2 className="display-4">
                             <FontAwesomeIcon className="p-2 color-red" icon={faPencilRuler} />
                             <FontAwesomeIcon className="p-2 color-red" icon={faCode} />
                             <FontAwesomeIcon className="p-2 color-red" icon={faGrinWink} /></h2>

@@ -11,11 +11,18 @@ body {
 .bg-red {
     background-color: #bf2a2b;
 }
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.25rem;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #bf2a2b;
+ }
 .navbar-title {
     font-size: 1.5rem;
 }
 .main-container {
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
     background-image: url("./assets/images/logo-white.png");
     background-position: bottom left;
     background-repeat: no-repeat;
