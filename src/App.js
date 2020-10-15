@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavLink from "react-bootstrap/NavLink";
+
 import './App.css';
 
 import Footer from './components/Footer';
@@ -50,9 +50,9 @@ class App extends React.Component {
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
-                                <NavLink activeClassName="selected" className="nav-link font-weight-bold p-0" to="/react-portfolio-tjh">Home</NavLink>
-                                <NavLink activeClassName="selected" className="nav-link font-weight-bold p-0 pl-md-4" to="/about">About</NavLink>
-                                <NavLink activeClassName="selected" className="nav-link font-weight-bold p-0 pl-md-4" to="/contact">Let&rsquo;s Chat</NavLink>
+                                <Link className="nav-link font-weight-bold p-0" to="/react-portfolio-tjh">Home</Link>
+                                <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/about">About</Link>
+                                <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/contact">Let&rsquo;s Chat</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
