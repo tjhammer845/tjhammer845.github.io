@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import ReactHtmlParser from "react-html-parser";
 
 // fontawesome imports
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Hero(props) {
