@@ -50,9 +50,9 @@ class App extends React.Component {
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
-                                <Link className="nav-link font-weight-bold p-0" to="/react-portfolio-tjh">Home</Link>
-                                <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/about">About</Link>
-                                <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/contact">Let&rsquo;s Chat</Link>
+                                <Link activeClassName="active" className="nav-link font-weight-bold p-0" to="/react-portfolio-tjh">Home</Link>
+                                <Link activeClassName="active" className="nav-link font-weight-bold p-0 pl-md-4" to="/about">About</Link>
+                                <Link activeClassName="active" className="nav-link font-weight-bold p-0 pl-md-4" to="/contact">Let&rsquo;s Chat</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
