@@ -21,6 +21,9 @@ p {
 .bg-red {
     background-color: #bf2a2b;
 }
+.display-1 {
+    font-size: 4.369rem;
+}
 .display-5 {
     font-size: 1.5rem;
 }
