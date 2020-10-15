@@ -10,6 +10,15 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+label {
+    font-weight: bold;
+}
+button {
+    background: #bf2a2b;
+}
+button:hover, button:active {
+    background: #a72526;
+}
 .g-card {
     margin: 20px;
 }
