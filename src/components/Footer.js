@@ -19,9 +19,9 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        <ExternalLink target="_blank" className="pr-4" href="https://github.com/tjhammer845/"><FontAwesomeIcon className="display-5" icon={faGithubAlt} /></ExternalLink>
-                        <ExternalLink target="_blank" className="pr-4" href="https://www.linkedin.com/in/thomasjhammer/"><FontAwesomeIcon className="display-5" icon={faLinkedinIn} /></ExternalLink>
-                        <ExternalLink target="_blank" className="pr-4" href="https://twitter.com/tjhammer845"><FontAwesomeIcon className="display-5" icon={faTwitter} /></ExternalLink>
+                        <ExternalLink target="_blank" className="pr-3" href="https://github.com/tjhammer845/"><FontAwesomeIcon className="display-5" icon={faGithubAlt} /></ExternalLink>
+                        <ExternalLink target="_blank" className="pr-3" href="https://www.linkedin.com/in/thomasjhammer/"><FontAwesomeIcon className="display-5" icon={faLinkedinIn} /></ExternalLink>
+                        <ExternalLink target="_blank" className="pr-3" href="https://twitter.com/tjhammer845"><FontAwesomeIcon className="display-5" icon={faTwitter} /></ExternalLink>
                         <Link target="_blank" className="p-0" to="./pdf/TH-CV.pdf"><FontAwesomeIcon className="display-5" icon={faFileDownload} /></Link>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
