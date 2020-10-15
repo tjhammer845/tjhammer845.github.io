@@ -17,11 +17,12 @@ function Hero(props) {
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12} className="text-center">
-                        <h2>
-                            <FontAwesomeIcon className="p-0" icon={faPencilRuler} />
-                            <FontAwesomeIcon className="p-0" icon={faCode} />
-                            <FontAwesomeIcon className="p-0" icon={faGrinWink} /></h2>
+
                         {props.title && <h2 className="display-1 font-weight-bolder">{props.title}</h2>}
+                        <div>
+                            <FontAwesomeIcon className="p-2" icon={faPencilRuler} />
+                            <FontAwesomeIcon className="p-2" icon={faCode} />
+                            <FontAwesomeIcon className="p-2" icon={faGrinWink} /></div>
                         {props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3>}
                         {props.text && <h4 className="lead font-weight-light">{props.text}</h4>}
                     </Col>
