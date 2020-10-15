@@ -18,7 +18,7 @@ function Hero(props) {
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12} className="text-center">
                         <ul>
-                            {this.props.tags.map((tag) => (<li key={tag}>{tag}</li>))}
+                            {props.tags.map((icon) => (<li key={icon}>{icon}</li>))}
                         </ul>
 
                         {props.title && <h2 className="display-1 font-weight-bolder">{props.title}</h2>}
