@@ -19,13 +19,13 @@ class App extends React.Component {
     state = {
         title: 'Tom Hammer',
         siteTitle: 'TH | Front-End Engineer and Digital Designer',
+        tags: ['faPencilRuler', 'faCode', 'faGrinWink'],
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
             { title: 'Contact', path: '/contact' }
         ],
         home: {
-            tags: ['faPencilRuler', 'faCode', 'faGrinWink'],
             title: 'Creative, logical, and slightly sarcastic.',
             subTitle: 'Web stuff with a brighter future in mind!',
             text: 'Check out some of my work below.'
