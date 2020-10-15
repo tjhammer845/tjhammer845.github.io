@@ -4,7 +4,7 @@ import Card from "../components/Card";
 
 import yaleUI from "../assets/images/yaleUI.png";
 import partnersNewHaven from "../assets/images/partnersNewHaven.png";
-import evverest from "../assets/images/evverest.png";
+import buggy from "../assets/images/buggy.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
@@ -33,7 +33,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: "Fresh shine, fresh pup, fresh website to go",
                     subTitle: "Buggy Car Wash and Barking Bath is the all-in-one spot for your car and dog maintenance.",
-                    imgSrc: evverest,
+                    imgSrc: buggy,
                     link: "https://buggycarwash.com",
                     selected: false
                 }
