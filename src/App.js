@@ -3,11 +3,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import ReactHtmlParser from "react-html-parser";
-
-// fontawesome imports
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './App.css';
 
@@ -24,9 +19,6 @@ class App extends React.Component {
     state = {
         title: 'Tom Hammer',
         siteTitle: 'TH | Front-End Engineer and Digital Designer',
-        // icon1: '<FontAwesomeIcon className="p-0" icon={faPencilRuler} />',
-        icon2: '<FontAwesomeIcon className="p-0" icon={faCode} />',
-        // icon3: '<FontAwesomeIcon className="p-0" icon={faGrinWink} />',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
