@@ -16,7 +16,7 @@ label {
 button {
     background: #bf2a2b;
 }
-button:hover, button:active {
+.btn-primary:hover, .btn-primary:active {
     background: #a72526;
 }
 .g-card {
