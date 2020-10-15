@@ -9,16 +9,18 @@ body {
     color: #bf2a2b;
 }
 .bg-red {
-    background: #bf2a2b;
-}
-.main-logo {
-  width: 140px;
+    background-color: #bf2a2b;
 }
 .navbar-title {
     font-size: 1.5rem;
 }
+.main-container {
+    padding-bottom: 15rem;
+}
 footer {
     min-height: 60px;
     padding-bottom: 10rem;
-    background: url("./assets/images/logo.png") bottom left no-repeat;
+    background-image: url("./assets/images/logo-white.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
 }
