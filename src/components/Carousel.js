@@ -7,7 +7,10 @@ import partnersNewHaven from "../assets/images/partnersNewHaven.png";
 import buggy from "../assets/images/buggy.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import { useSpring, animated } from 'react-spring';
 
+
+const style = useSpring({ opacity: 1, from: { opacity: 0 } });
 class Carousel extends React.Component {
     constructor(props) {
         super(props);
@@ -61,7 +64,7 @@ class Carousel extends React.Component {
         return items.map(item => {
             return (
                 <Card
-                    item={item}
+                    item={item} style={style}
                     click={e => this.handleCardClick(item.id, e)}
                     key={item.id}
                 />
