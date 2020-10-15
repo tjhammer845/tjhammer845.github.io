@@ -4,11 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-// fontawesome imports
-import { faCode } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ReactHtmlParser from "react-html-parser";
-
 import './App.css';
 
 import logo from './assets/images/logo.png'; // Tell webpack this JS file uses this image
