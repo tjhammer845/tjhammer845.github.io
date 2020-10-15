@@ -8,6 +8,9 @@ body {
 a {
     color: #bf2a2b;
 }
+a:hover {
+    color: #a72526
+}
 .color-red {
     color: #bf2a2b;
 }
@@ -28,9 +31,9 @@ a {
     font-size: 1.5rem;
 }
 .main-container {
-    padding-bottom: 8rem;
     background-image: url("./assets/images/logo-white.png");
-    background-position: bottom left;
+    padding-bottom: 30rem;
+    background-position: bottom 9rem left;
     background-repeat: no-repeat;
 }
 footer {
@@ -40,5 +43,5 @@ footer a {
     color: white;
 }
 footer a:hover {
-    color: #EEE;
+    color: #CCC;
 }
