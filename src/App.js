@@ -19,15 +19,6 @@ class App extends React.Component {
     state = {
         title: 'Tom Hammer',
         siteTitle: 'TH | Front-End Engineer and Digital Designer',
-        // tags: [{ icon: 'faPencilRuler' }, { icon: 'faCode' }, { icon: 'faGrinWink' }],
-        events: [{
-            name: "Creative",
-            _id: "faPencilRuler",
-        },
-        {
-            name: "Logical",
-            _id: "faCode",
-        }],
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
