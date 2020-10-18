@@ -26,7 +26,7 @@ class App extends React.Component {
         home: {
             title: 'Creative, logical, and slightly humorous.',
             subTitle: 'Web stuff with a brighter future in mind!',
-            text: 'I drink coffee. I draw. I write clean code. I\'m a front-end engineer and digital creator embracing new technologies so I can create awesome user experiences!'
+            text: 'I drink coffee. I draw. I write clean code. I\'m a front-end engineer and digital creator embracing new technologies so I can create awesome user experiences. Check out some of my work below!'
         },
         about: {
             title: 'About Tom'
