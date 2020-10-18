@@ -10,6 +10,10 @@ function WorkflowPage(props) {
 
             <Content>
                 <p className="lead">
+                    My development workflow is something I've been constantly improving over the years,
+                    and it's always evolving as I discover new tips, tools, methods or applications.
+                    I'll list out everything that is typically involved in
+                    my everyday workflow, such as my desktop equipment, macOS applications, development tools, etc.
                 </p>
             </Content>
         </div>

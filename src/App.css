@@ -57,6 +57,7 @@ a:hover, a:active {
 /* Gallery */
 .g-card {
     margin: 20px;
+    cursor: pointer;
 }
 .g-card-image {
     border-radius: 10px;
@@ -112,6 +113,9 @@ footer a:hover {
 @media (max-width: 991px) {
     .display-1 {
         font-size: 3rem;
+    }
+    .display-2 {
+        font-size: 2.75rem;
     }
     .display-5 {
         font-size: 1.25rem;
