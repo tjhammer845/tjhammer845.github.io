@@ -1,6 +1,7 @@
-/*** Portfolio Website CSS ***/
+/*** PORTFOLIO APP STYLES ***/
+/****************************/
 
-
+/* General */
 .color-red {
     color: #bf2a2b;
 }
@@ -8,7 +9,15 @@
     background-color: #bf2a2b;
 }
 
-/* Main Navigation Styles */
+/* Main Container */
+.main-container {
+    background-image: url("./assets/images/logo-white.png");
+    padding-bottom: 13rem;
+    background-position: bottom 9rem left -6rem;
+    background-repeat: no-repeat;
+}
+
+/* Main Navigation */
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.25rem;
 }
@@ -20,44 +29,7 @@
     font-size: 1.5rem;
 }
 
-/* Main Container Styles */
-.main-container {
-    background-image: url("./assets/images/logo-white.png");
-    padding-bottom: 13rem;
-    background-position: bottom 9rem left -6rem;
-    background-repeat: no-repeat;
-    @media (max-width: 767px){
-        background-position: bottom 9rem center;
-    }
-}
-
-/* Font Styles */
-h1, h2, h3, p {
-    line-height: 1.4;
-}
-h1, h2, h3 {
-    font-weight: 700;
-}
-h1 {
-    font-size: 2.5rem;
-}
-h2 {
-    font-size: 2.25rem;
-}
-h3 {
-    font-size: 1.65rem;
-}
-p, p.lead {
-    font-size: 1.25rem;
-    color: black;
-    font-weight: 300;
-}
-@media (max-width: 991px) {
-    h1 {font-size: 1rem}
-    h2 {font-size: 1.75rem}
-    h3 {font-size: 1.5rem}
-    p, p.lead {font-size: 1.2rem}
-}
+/* Typography */
 .display-1 {
     font-size: 4.369rem;
 }
@@ -65,10 +37,7 @@ p, p.lead {
     font-size: 1.5rem;
 }
 
-/* Button and Link Styles */
-a, a:hover, a:active {
-    text-decoration: none;
-}
+/* Buttons and Links */
 a {
     color: #bf2a2b;
 }
@@ -85,7 +54,7 @@ a:hover, a:active {
     background: #a72526;
 }
 
-/* Gallery Styles */
+/* Gallery */
 .g-card {
     margin: 20px;
 }
@@ -113,7 +82,7 @@ a:hover, a:active {
     font-size: 1rem;
 }
 
-/* Email Form Styles */
+/* Form */
 label {
     font-weight: bold;
 }
@@ -126,7 +95,7 @@ label {
   padding: 10px 15px;
 }
 
-/* Footer Styles */
+/* Footer */
 footer {
     box-shadow: 0 0 3px 1px #999;
     min-height: 60px;
@@ -136,4 +105,20 @@ footer a {
 }
 footer a:hover {
     color: #CCC;
+}
+
+
+/* Responsive Media Queries */
+@media (max-width: 991px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+    .display-5 {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 767px) {
+    .main-container {
+        background-position: bottom 9rem center;
+    }
 }
