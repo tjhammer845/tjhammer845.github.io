@@ -15,15 +15,15 @@ function Hero(props) {
     return (
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
-                <Row className="justify-content-center py-5">
+                <Row className="justify-content-center pt-5">
                     <Col md={10} sm={12} className="text-center">
                         {props.title && <h2 className="display-1 font-weight-bolder mt-5">{props.title}</h2>}
                         {props.subTitle && <h3 className="display-2 font-weight-light">{props.subTitle}</h3>}
                     </Col>
                 </Row>
                 <Row className="justify-content-center py-5">
-                    <Col md={8} sm={12} className="text-center">
-                        {props.text && <h4 className="lead mt-5 font-weight-light">{props.text}</h4>}
+                    <Col md={6} sm={12} className="text-center">
+                        {props.text && <h4 className="lead font-weight-light">{props.text}</h4>}
                         <h2 className="display-4 mt-5">
                             <FontAwesomeIcon className="p-2 color-red" icon={faPencilRuler} />
                             <FontAwesomeIcon className="p-2 color-red" icon={faCode} />
