@@ -7,7 +7,6 @@ function WorkflowPage(props) {
     return (
         <div>
             <Hero title={props.title} />
-
             <Content>
                 <p className="lead">
                     My development workflow is something I've been constantly improving over the years,

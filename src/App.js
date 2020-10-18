@@ -14,11 +14,9 @@ import ContactPage from './pages/ContactPage';
 
 
 class App extends React.Component {
-
-
     state = {
         title: 'Tom Hammer',
-        siteTitle: 'TH | Front-End Engineer and Digital Designer',
+        siteTitle: 'TH | Front-End Engineer and Digital Creator',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
@@ -28,7 +26,7 @@ class App extends React.Component {
         home: {
             title: 'Creative, logical, and slightly humorous.',
             subTitle: 'Web stuff with a brighter future in mind!',
-            text: 'Check out some of my work below.'
+            text: 'I drink coffee. I draw. I write clean code. I\'m a front-end engineer and digital creator embracing new technologies so I can create awesome user experiences!'
         },
         about: {
             title: 'About Tom'
@@ -40,9 +38,11 @@ class App extends React.Component {
             title: 'Let\'s Chat'
         }
     }
+
     componentDidMount() {
         document.title = this.state.siteTitle
     }
+
     render() {
         return (
             <Router>

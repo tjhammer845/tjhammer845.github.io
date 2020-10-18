@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function Content(props) {
-
     return (
         <Container fluid={true}>
             <Row className="justify-content-center">
@@ -14,7 +13,6 @@ function Content(props) {
             </Row>
         </Container>
     );
-
 }
 
 export default Content;
