@@ -9,7 +9,8 @@ function WorkflowPage(props) {
             <Hero title={props.title} />
 
             <Content>
-                <p className="lead">I am a front-end engineer focused on writing clean code and learning new web technologies. With an education and background in digital design, I understand the entire process of creating quality web applications from conception to completion. In the past, I’ve worked on a variety of web projects and gained invaluable experiences through daily operations within Information Technology and Creative. </p>
+                <p className="lead">
+                </p>
             </Content>
         </div>
     );

@@ -1,32 +1,14 @@
 /*** Portfolio Website CSS ***/
 
 
-
-body {
-    font-size: 16px;
-}
-a {
-    color: #bf2a2b;
-}
-a:hover {
-    color: #a72526;
-}
-p {
-    font-size: 1rem;
-    line-height: 1.4;
-}
 .color-red {
     color: #bf2a2b;
 }
 .bg-red {
     background-color: #bf2a2b;
 }
-.display-1 {
-    font-size: 4.369rem;
-}
-.display-5 {
-    font-size: 1.5rem;
-}
+
+/* Main Navigation Styles */
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.25rem;
 }
@@ -37,6 +19,8 @@ p {
 .navbar-title {
     font-size: 1.5rem;
 }
+
+/* Main Container Styles */
 .main-container {
     background-image: url("./assets/images/logo-white.png");
     padding-bottom: 13rem;
@@ -46,6 +30,103 @@ p {
         background-position: bottom 9rem center;
     }
 }
+
+/* Font Styles */
+h1, h2, h3, p {
+    line-height: 1.4;
+}
+h1, h2, h3 {
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.25rem;
+}
+h3 {
+    font-size: 1.65rem;
+}
+p, p.lead {
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 300;
+}
+@media (max-width: 991px) {
+    h1 {font-size: 2rem}
+    h2 {font-size: 1.75rem}
+    h3 {font-size: 1.5rem}
+    p, p.lead {font-size: 1.2rem}
+}
+.display-1 {
+    font-size: 4.369rem;
+}
+.display-5 {
+    font-size: 1.5rem;
+}
+
+/* Button and Link Styles */
+a, a:hover, a:active {
+    text-decoration: none;
+}
+a {
+    color: #bf2a2b;
+}
+a:hover, a:active {
+    color: #a72526;
+}
+.btn-primary {
+    background: #bf2a2b;
+    padding: 8px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-primary:hover, .btn-primary:active {
+    background: #a72526;
+}
+
+/* Gallery Styles */
+.g-card {
+    margin: 20px;
+}
+.g-card-image {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0px 0px 3px 1px #666;
+}
+.g-card-image:hover {
+    border: solid 3px #bf2a2b;
+    border-radius: 10px;
+}
+.g-card-info {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 2rem;
+    min-height: 100px;
+}
+.g-card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.g-card-sub-title {
+    font-size: 1rem;
+}
+
+/* Email Form Styles */
+label {
+    font-weight: bold;
+}
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+.err-msg {
+  color: #a72526;
+  padding: 10px 15px;
+}
+
+/* Footer Styles */
 footer {
     box-shadow: 0 0 3px 1px #999;
     min-height: 60px;
