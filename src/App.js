@@ -34,7 +34,7 @@ class App extends React.Component {
             title: 'About Tom'
         },
         workflow: {
-            title: 'Tom\'s Chat'
+            title: 'Tom\'s Workflow'
         },
         contact: {
             title: 'Let\'s Chat'
@@ -57,7 +57,7 @@ class App extends React.Component {
                             <Nav className="ml-auto">
                                 <Link className="nav-link font-weight-bold p-0" to="/react-portfolio-tjh">Home</Link>
                                 <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/about">About</Link>
-                                <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/about">Workflow</Link>
+                                <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/workflow">Workflow</Link>
                                 <Link className="nav-link font-weight-bold p-0 pl-md-4" to="/contact">Let&rsquo;s Chat</Link>
                             </Nav>
                         </Navbar.Collapse>
