@@ -80,7 +80,6 @@ a:hover, a:active {
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    content: "";
 }
 .carousel .control-next.control-arrow:before {
     border-left: 15px solid #bf2a2b;
