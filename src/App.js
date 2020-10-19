@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkflowPage from './pages/WorkflowPage';
 import ContactPage from './pages/ContactPage';
+import tomAndBentleyImg from "./assets/images/about-image.jpg";
 
 
 class App extends React.Component {
@@ -29,7 +30,14 @@ class App extends React.Component {
             text: 'I drink coffee. I draw. I write clean code. I\'m a front-end engineer and digital creator embracing new technologies so I can create awesome user experiences. Check out some of my work below!'
         },
         about: {
-            title: 'About Tom'
+            title: 'About Tom',
+            images: [
+                {
+                    id: 0,
+                    title: 'Tom and his nephew Bentley',
+                    imgSrc: tomAndBentleyImg
+                }
+            ]
         },
         workflow: {
             title: 'Tom\'s Workflow'
