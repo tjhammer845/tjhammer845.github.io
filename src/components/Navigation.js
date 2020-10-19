@@ -5,7 +5,7 @@ export default (props) => {
     const [isSticky, setSticky] = useState(false);
     const ref = useRef(null);
     const handleScroll = () => {
-        if (ref.current) {
+        if (ref && ref.current) {
             setSticky(ref.current.getBoundingClientRect().top <= 0);
         }
     };
