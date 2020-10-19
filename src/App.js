@@ -31,7 +31,7 @@ class App extends React.Component {
         },
         about: {
             title: 'About Tom',
-            images: [
+            items: [
                 {
                     id: 0,
                     title: 'Tom and his nephew Bentley',

@@ -19,10 +19,10 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="justify-content-md-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        <ExternalLink target="_blank" className="pr-3" href="https://github.com/tjhammer845/"><FontAwesomeIcon className="display-4" icon={faGithubAlt} /></ExternalLink>
-                        <ExternalLink target="_blank" className="pr-3" href="https://www.linkedin.com/in/thomasjhammer/"><FontAwesomeIcon className="display-4" icon={faLinkedinIn} /></ExternalLink>
-                        <ExternalLink target="_blank" className="pr-3" href="https://twitter.com/tjhammer845"><FontAwesomeIcon className="display-4" icon={faTwitter} /></ExternalLink>
-                        <Link target="_blank" className="p-0" to="./pdf/TH-CV.pdf"><FontAwesomeIcon className="display-4" icon={faFileDownload} /></Link>
+                        <ExternalLink target="_blank" className="pr-3" href="https://github.com/tjhammer845/"><FontAwesomeIcon className="display-5" icon={faGithubAlt} /></ExternalLink>
+                        <ExternalLink target="_blank" className="pr-3" href="https://www.linkedin.com/in/thomasjhammer/"><FontAwesomeIcon className="display-5" icon={faLinkedinIn} /></ExternalLink>
+                        <ExternalLink target="_blank" className="pr-3" href="https://twitter.com/tjhammer845"><FontAwesomeIcon className="display-5" icon={faTwitter} /></ExternalLink>
+                        <Link target="_blank" className="p-0" to="./pdf/TH-CV.pdf"><FontAwesomeIcon className="display-5" icon={faFileDownload} /></Link>
                     </Col>
                     <Col className="p-0 d-flex justify-content-center justify-content-md-end" md={3} sm={12}>
                         <font className="text-white">&copy; 2020 Tom Hammer. All Rights Reserved.</font>
