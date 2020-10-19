@@ -77,15 +77,18 @@ a:hover, a:active {
 .carousel .slide {
     background: transparent;
 }
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent
+}
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 15px solid #bf2a2b;
+    border-left: 20px solid rgba(191,42,43,0.75);
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 15px solid #bf2a2b;
+    border-right: 20px solid rgba(191,42,43,0.75);
 }
 .g-card {
     margin: 20px;
