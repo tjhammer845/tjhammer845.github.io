@@ -8,7 +8,7 @@ export default (props) =>
     <Navbar className="border-bottom" bg="transparent" expand="lg">
         <Navbar.Brand className="font-weight-bold">
             <h1 className="d-inline-block navbar-title m-0">{props.title}
-                <span className="font-italic">{props.subtitle}</span></h1>
+                <span className="d-none font-italic">{props.subtitle}</span></h1>
         </Navbar.Brand>
         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
         <Navbar.Collapse id="navbar-toggle">

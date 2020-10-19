@@ -15,8 +15,9 @@ import tomAndBentleyImg from "./assets/images/about-image.jpg";
 
 class App extends React.Component {
     state = {
-        title: 'Tom Hammer',
         siteTitle: 'TH | Front-End Engineer and Digital Creator',
+        title: 'Tom Hammer ',
+        subtitle: ' | Front-End Engineer and Digital Creator',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
@@ -55,7 +56,7 @@ class App extends React.Component {
         return (
             <Router>
                 <Container className="main-container" fluid={true}>
-                    <Navigation props={this.state} />
+                    <Navigation {...this.state} />
                     <Route path="/react-portfolio-tjh" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/about" render={() => <AboutPage about={this.state.about} />} />
                     <Route path="/workflow" render={() => <WorkflowPage title={this.state.workflow.title} />} />

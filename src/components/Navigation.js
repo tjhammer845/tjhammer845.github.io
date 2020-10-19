@@ -21,7 +21,7 @@ export default (props) => {
     return (
         <Fragment>
             <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
-                <Sticky />
+                <Sticky {...props} />
             </div>
         </Fragment>
     );
