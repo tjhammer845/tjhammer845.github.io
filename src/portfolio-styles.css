@@ -120,8 +120,8 @@ a:hover, a:active {
     width: 100%;
     max-width: 450px;
     min-height: 720px;
-    position: absolute;
-    bottom: -37px;
+    bottom: 224px;
+    position: fixed;
     background-color: rgba(0,0,0,0.88);
 }
 .g-card-title {
