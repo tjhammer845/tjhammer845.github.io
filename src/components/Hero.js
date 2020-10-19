@@ -21,7 +21,7 @@ function Hero(props) {
                         {props.subTitle && <h3 className="display-2 font-weight-light mt-2">{props.subTitle}</h3>}
                     </Col>
                 </Row>
-                <Row className="justify-content-center py-4">
+                <Row className="justify-content-center pb-4">
                     <Col md={5} sm={12} className="text-center">
                         {props.text && <p className="display-3 font-weight-light">{props.text}</p>}
                         <h2 className="display-4">

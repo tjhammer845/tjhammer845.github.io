@@ -198,10 +198,10 @@ footer a:hover {
 /* Responsive Media Queries */
 @media (max-width: 1666px) {
     .display-1 {
-        font-size: 3.3rem;
+        font-size: 2.6rem;
     }
     .display-2 {
-        font-size: 2.75rem;
+        font-size: 2rem;
     }
     .display-3 {
         font-size: 1.75rem;
