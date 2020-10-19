@@ -107,8 +107,8 @@ a:hover, a:active {
     background: rgba(191,42,43,0.9);
 }
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
     border-left: 33px solid rgba(191,42,43,0.9);

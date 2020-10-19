@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Hero(props) {
 
     return (
-        <Jumbotron className="jumbotron-fluid p-0 bg-white">
+        <Jumbotron className="jumbotron-fluid p-0 bg-transparent">
             <Container fluid={true}>
                 <Row className="justify-content-center pt-5">
                     <Col md={10} sm={12} className="text-center">
