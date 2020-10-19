@@ -53,12 +53,21 @@ a:hover, a:active {
 }
 .btn-primary {
     background: #bf2a2b;
-    padding: 8px 30px;
-    font-size: 1.5rem;
-    font-weight: bold;
+    background-color: #bf2a2b;
+    border-color: #bf2a2b;
+    padding: .5rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 .btn-primary:hover, .btn-primary:active {
     background: #a72526;
+    border-color: #a72526;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+ .btn-primary:not(:disabled):not(.disabled):active,
+  .show>.btn-primary.dropdown-toggle {
+    background: #a72526;
+    border-color: #a72526;
 }
 
 /* Gallery */
