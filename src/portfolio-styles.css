@@ -120,7 +120,7 @@ a:hover, a:active {
     width: 100%;
     max-width: 450px;
     min-height: 720px;
-    bottom: 162px;
+    bottom: 37px;
     position: absolute;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.88);
@@ -194,12 +194,12 @@ footer a:hover {
 }
 @media (max-width: 2162px) {
     .g-card-info {
-        bottom: -200px;
+        bottom: -113px;
     }
 }
 @media (max-width: 1672px) {
     .g-card-info {
-        bottom: -238px;
+        bottom: 20px;
     }
 }
 @media (max-width: 1666px) {
