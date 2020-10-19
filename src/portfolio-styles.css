@@ -15,8 +15,8 @@
 .sticky .sticky-inner {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 1rem;
+    right: 1rem;
     z-index: 1;
 }
 
@@ -161,6 +161,11 @@ a:hover, a:active {
     font-size: 1rem;
 }
 
+/* About */
+.about-img {
+    width: 300px;
+    height: 300px;
+}
 /* Form */
 label {
     font-weight: bold;
