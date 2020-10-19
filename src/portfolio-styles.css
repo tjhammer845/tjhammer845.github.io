@@ -215,10 +215,10 @@ footer a:hover {
 }
 @media (max-width: 991px) {
     .display-1 {
-        font-size: 2rem;
+        font-size: 1.89rem;
     }
     .display-2 {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
     }
     .display-3 {
         font-size: 1.25rem;
