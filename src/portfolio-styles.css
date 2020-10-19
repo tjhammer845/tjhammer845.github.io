@@ -121,8 +121,9 @@ a:hover, a:active {
 .g-card-info {
     width: 100%;
     max-width: 450px;
-    margin-top: 2rem;
-    min-height: 100px;
+    min-height: 720px;
+    position: absolute;
+    bottom: -37px;
 }
 .g-card-title {
     font-size: 1.25rem;
@@ -132,7 +133,24 @@ a:hover, a:active {
 .g-card-sub-title {
     font-size: 1rem;
 }
-
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+    opacity: 1;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+  
 /* Form */
 label {
     font-weight: bold;

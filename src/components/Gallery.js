@@ -68,7 +68,7 @@ class Gallery extends React.Component {
         return (
             <Container fluid={true}>
                 <Row className="justify-content-around text-center">
-                    <Media query="(max-width: 1499px)">
+                    <Media query="(max-width: 1520px)">
                         {matches => matches ? (
                             <Carousel>
                                 {this.makeItems(this.state.items)}
