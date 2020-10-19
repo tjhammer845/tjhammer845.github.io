@@ -198,13 +198,13 @@ footer a:hover {
 /* Responsive Media Queries */
 @media (max-width: 1666px) {
     .display-1 {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
     }
     .display-2 {
         font-size: 2rem;
     }
     .display-3 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     .display-4 {
         font-size: 2.5rem;
@@ -221,7 +221,7 @@ footer a:hover {
         font-size: 1.75rem;
     }
     .display-3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     .display-4 {
         font-size: 2.25rem;
@@ -231,9 +231,6 @@ footer a:hover {
     }
 }
 @media (max-width: 767px) {
-    .display-3 {
-        font-size: 1.25rem;
-    }
     .display-4 {
         font-size: 2rem;
     }
