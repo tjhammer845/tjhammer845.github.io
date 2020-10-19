@@ -105,6 +105,7 @@ a:hover, a:active {
 .g-card {
     margin: 20px;
     cursor: pointer;
+    position: relative;
 }
 .g-card-image {
     border-radius: 10px;
@@ -117,13 +118,14 @@ a:hover, a:active {
     border-radius: 10px;
 }
 .g-card-info {
-    width: 100%;
-    max-width: 450px;
-    min-height: 720px;
-    bottom: 37px;
     position: absolute;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.88);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .g-card-info-enter {
     opacity: 0.01;
@@ -190,21 +192,6 @@ footer a:hover {
     }
     .display-5 {
         font-size: 1.5rem;
-    }
-}
-@media (max-width: 2162px) {
-    .g-card-info {
-        bottom: -113px;
-    }
-}
-@media (max-width: 1672px) {
-    .g-card-info {
-        bottom: 20px;
-    }
-}
-@media (max-width: 1666px) {
-    .g-card-info {
-        bottom: -136px;
     }
 }
 @media (max-width: 991px) {
