@@ -1,12 +1,13 @@
 import React from "react";
-import Card from "../components/Card";
+import Card from "./Card";
 import yale from "../assets/images/yale.jpg";
 import partners from "../assets/images/partners.jpg";
 import buggy from "../assets/images/buggy.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Carousel from 'react-bootstrap/Carousel';
 
-class Carousel extends React.Component {
+class Gallery extends React.Component {
     state = {
         items: [
             {
@@ -74,4 +75,4 @@ class Carousel extends React.Component {
     }
 }
 
-export default Carousel;
+export default Gallery;

@@ -1,6 +1,6 @@
 import React from 'react';
 import CardInfo from '../components/CardInfo';
-import Carousel from './Carousel';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Card(props) {
     return (
