@@ -30,14 +30,15 @@ class App extends React.Component {
             text: 'I drink coffee. I draw. I write clean code. I\'m a front-end engineer and digital creator embracing new technologies so I can create awesome user experiences. Check out some of my work below!'
         },
         about: {
-            title: 'About Tom',
-            items: [
+            images: [
                 {
                     id: 0,
+                    src: tomAndBentleyImg,
                     title: 'Tom and his nephew Bentley',
-                    imgSrc: tomAndBentleyImg
+                    description: 'Who doesn\'t love a cute dog pic?'
                 }
-            ]
+            ],
+            title: 'About Tom'
         },
         workflow: {
             title: 'Tom\'s Workflow'

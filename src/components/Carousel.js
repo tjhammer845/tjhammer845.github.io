@@ -65,7 +65,16 @@ class Carousel extends React.Component {
         return (
             <Container fluid={true}>
                 <Row className="justify-content-around text-center">
-                    {this.makeItems(this.state.items)}
+                    <div id="galleryDisplay" className="carousel slide" data-ride="carousel">
+                        {/* <ol class="carousel-indicators">
+                            <li data-target="#galleryDisplay" data-slide-to="0" class="active"></li>
+                            <li data-target="#galleryDisplay" data-slide-to="1"></li>
+                            <li data-target="#galleryDisplay" data-slide-to="2"></li>
+                        </ol> */}
+                        <div className="carousel-inner" role="listbox">
+                            {this.makeItems(this.state.items)}
+                        </div>
+                    </div>
                 </Row>
             </Container>
         );
