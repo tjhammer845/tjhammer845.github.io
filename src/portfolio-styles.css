@@ -8,6 +8,9 @@
 .bg-red {
     background-color: #bf2a2b;
 }
+.border-red {
+    border: solid 3px #bf2a2b;
+}
 .sticky-wrapper {
     position: relative;
     height: 3rem; /* We need to change this value */
