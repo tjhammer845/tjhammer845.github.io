@@ -18,11 +18,11 @@ function Hero(props) {
                 <Row className="justify-content-center pt-5">
                     <Col md={10} sm={12} className="text-center">
                         {props.title && <h2 className="display-1 font-weight-bolder mt-5">{props.title}</h2>}
-                        {props.subTitle && <h3 className="display-2 font-weight-light mt-4">{props.subTitle}</h3>}
+                        {props.subTitle && <h3 className="display-2 font-weight-light mt-2">{props.subTitle}</h3>}
                     </Col>
                 </Row>
                 <Row className="justify-content-center py-4">
-                    <Col md={6} sm={12} className="text-center">
+                    <Col md={5} sm={12} className="text-center">
                         {props.text && <h4 className="lead font-weight-light">{props.text}</h4>}
                         <h2 className="display-4 mt-4">
                             <FontAwesomeIcon className="p-2 color-red" icon={faPencilRuler} />
