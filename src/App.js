@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 import './portfolio-styles.css';
 
-import Navigation from './components/Navigation';
+import Sticky from './components/Sticky';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -56,7 +56,7 @@ class App extends React.Component {
         return (
             <Router>
                 <Container className="main-container" fluid={true}>
-                    <Navigation {...this.state} />
+                    <Sticky {...this.state} />
                     <Route path="/react-portfolio-tjh" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/about" render={() => <AboutPage about={this.state.about} />} />
                     <Route path="/workflow" render={() => <WorkflowPage title={this.state.workflow.title} />} />
