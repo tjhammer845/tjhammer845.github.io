@@ -1,11 +1,12 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import Card from "./Card";
 import yale from "../assets/images/yale.jpg";
 import partners from "../assets/images/partners.jpg";
 import buggy from "../assets/images/buggy.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Carousel from 'react-bootstrap/Carousel';
 
 class Gallery extends React.Component {
     state = {
