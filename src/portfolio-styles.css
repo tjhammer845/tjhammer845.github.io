@@ -80,15 +80,29 @@ a:hover, a:active {
 .carousel.carousel-slider .control-arrow:hover {
     background: transparent
 }
+.carousel .carousel-status {
+    color: #ddd;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: none;
+}
+.carousel .control-dots {
+    height: 10px;
+}
+.carousel .control-dots .dot {
+    box-shadow: none;
+    background: rgba(191,42,43,0.9);
+}
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 20px solid rgba(191,42,43,0.75);
+    border-left: 33px solid rgba(191,42,43,0.9);
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 20px solid rgba(191,42,43,0.75);
+    border-right: 33px solid rgba(191,42,43,0.9);
 }
 .g-card {
     margin: 20px;
