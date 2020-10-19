@@ -11,7 +11,7 @@ class Carousel extends React.Component {
         items: [
             {
                 id: 0,
-                title: "Responsive UI keeps the collegiate world turning.",
+                title: "Responsive UI keeps the world turning",
                 subTitle: "Satisfying many users of the Yale MFA-DUO, CAS-SSO and NetID Management Applications.",
                 imgSrc: yale,
                 link: "https://veritas.its.yale.edu/netid/",
@@ -19,7 +19,7 @@ class Carousel extends React.Component {
             },
             {
                 id: 1,
-                title: "Websites should be bold and proud!",
+                title: "A website should be bold and proud",
                 subTitle: "Partners Bar and Nightclub is a long-lasting staple in New Haven nightlife and the LGBTQ Community.",
                 imgSrc: partners,
                 link: "https://www.partnersnewhaven.com",
@@ -27,7 +27,7 @@ class Carousel extends React.Component {
             },
             {
                 id: 2,
-                title: "Fresh shine, fresh pup, fresh website to go...",
+                title: "Fresh shine, fresh pup, fresh site to go",
                 subTitle: "Buggy Car Wash and Barking Bath is the all-in-one spot for your car and dog maintenance.",
                 imgSrc: buggy,
                 link: "https://buggycarwash.com",
