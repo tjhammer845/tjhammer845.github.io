@@ -5,7 +5,7 @@ import { CSSTransitionGroup } from 'react-transition-group' // ES6
 function Card(props) {
     return (
         <CSSTransitionGroup
-            transitionName="example"
+            transitionName="g-card-info"
             transitionEnterTimeout={500}
             transitionLeaveTimeout={300}>
             <div className="d-inline-block g-card" onClick={(e) => props.click(props.item)}>

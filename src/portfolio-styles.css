@@ -122,7 +122,22 @@ a:hover, a:active {
     min-height: 720px;
     bottom: 224px;
     position: fixed;
+    border-radius: 10px;
     background-color: rgba(0,0,0,0.88);
+}
+.g-card-info-enter {
+    opacity: 0.01;
+}
+.g-card-info-enter.g-card-info-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.g-card-info-leave {
+  opacity: 1;
+}
+.g-card-info-leave.g-card-info-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }
 .g-card-title {
     font-size: 1.25rem;
@@ -132,22 +147,7 @@ a:hover, a:active {
 .g-card-sub-title {
     font-size: 1rem;
 }
-.example-enter {
-    opacity: 0.01;
-}
-.example-enter.example-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
 
-.example-leave {
-  opacity: 1;
-}
-
-.example-leave.example-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
-}
 /* Form */
 label {
     font-weight: bold;
@@ -190,6 +190,11 @@ footer a:hover {
     }
     .display-5 {
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 1520px) {
+    .g-card-info {
+        bottom: 20px;
     }
 }
 @media (max-width: 991px) {
