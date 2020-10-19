@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 
 import './portfolio-styles.css';
 
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -56,21 +55,7 @@ class App extends React.Component {
         return (
             <Router>
                 <Container className="main-container" fluid={true}>
-                    <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand className="font-weight-bold">
-                            <h1 className="d-inline-block navbar-title m-0">{this.state.title}
-                                <span className="font-italic">{this.state.subtitle}</span></h1>
-                        </Navbar.Brand>
-                        <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-                        <Navbar.Collapse id="navbar-toggle">
-                            <Nav className="ml-auto">
-                                <Link className="nav-link text-uppercase p-0" to="/react-portfolio-tjh">Home</Link>
-                                <Link className="nav-link text-uppercase p-0 pl-md-5" to="/about">About</Link>
-                                <Link className="nav-link text-uppercase p-0 pl-md-5" to="/workflow">Workflow</Link>
-                                <Link className="nav-link text-uppercase p-0 pl-md-5" to="/contact">Let&rsquo;s Chat</Link>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Navbar>
+                    <Navigation />
                     <Route path="/react-portfolio-tjh" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/about" render={() => <AboutPage about={this.state.about} />} />
                     <Route path="/workflow" render={() => <WorkflowPage title={this.state.workflow.title} />} />
