@@ -22,7 +22,7 @@ function Hero(props) {
                     </Col>
                 </Row>
                 <Row className="justify-content-center pb-4">
-                    <Col md={5} sm={12} className="text-center">
+                    <Col lg={5} md={7} sm={12} className="text-center">
                         {props.text && <p className="display-3 font-weight-light">{props.text}</p>}
                         <h2 className="display-4">
                             <FontAwesomeIcon className="display-4 p-2 color-red" icon={faPencilRuler} />
