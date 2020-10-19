@@ -58,7 +58,7 @@ class App extends React.Component {
                 <Container className="main-container" fluid={true}>
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
                         <Navbar.Brand className="font-weight-bold">
-                            <h1 className="d-inline-block navbar-title">{this.state.title}
+                            <h1 className="d-inline-block navbar-title m-0">{this.state.title}
                                 <span className="font-italic">{this.state.subtitle}</span></h1>
                         </Navbar.Brand>
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
@@ -72,7 +72,7 @@ class App extends React.Component {
                         </Navbar.Collapse>
                     </Navbar>
                     <Route path="/react-portfolio-tjh" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-                    <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+                    <Route path="/about" render={() => <AboutPage about={this.state.about} />} />
                     <Route path="/workflow" render={() => <WorkflowPage title={this.state.workflow.title} />} />
                     <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
                 </Container>

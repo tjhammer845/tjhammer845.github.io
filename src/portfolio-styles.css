@@ -8,6 +8,17 @@
 .bg-red {
     background-color: #bf2a2b;
 }
+.sticky-wrapper {
+    position: relative;
+    height: 3rem; /* We need to change this value */
+  }
+.sticky .sticky-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
 
 /* Main Container */
 .main-container {
@@ -19,7 +30,7 @@
 
 /* Main Navigation */
 .navbar-light .navbar-nav .nav-link {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 .navbar-light .navbar-nav .nav-link:hover,

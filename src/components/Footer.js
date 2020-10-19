@@ -24,7 +24,7 @@ function Footer() {
                         <ExternalLink target="_blank" className="pr-3" href="https://twitter.com/tjhammer845"><FontAwesomeIcon className="display-5" icon={faTwitter} /></ExternalLink>
                         <Link target="_blank" className="p-0" to="./pdf/TH-CV.pdf"><FontAwesomeIcon className="display-5" icon={faFileDownload} /></Link>
                     </Col>
-                    <Col className="d-flex justify-content-center justify-content-md-end p-0" md={5} sm={12}>
+                    <Col className="d-flex justify-content-center justify-content-md-end p-0" md={6} sm={12}>
                         <font className="text-center text-sm-left text-white">&copy; 2020 Tom Hammer. <span className="text-nowrap">All Rights Reserved.</span></font>
                     </Col>
                 </Row>
