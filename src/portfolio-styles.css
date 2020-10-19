@@ -124,7 +124,7 @@ a:hover, a:active {
     min-height: 720px;
     position: absolute;
     bottom: -37px;
-    background-color: rgba(191,42,43,0.9);
+    background-color: rgba(0,0,0,0.8);
 }
 .g-card-title {
     font-size: 1.25rem;
