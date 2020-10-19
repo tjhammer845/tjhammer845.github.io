@@ -1,6 +1,7 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import Media from 'react-media';
 import Card from "./Card";
 import yale from "../assets/images/yale.jpg";
 import partners from "../assets/images/partners.jpg";
@@ -67,9 +68,17 @@ class Gallery extends React.Component {
         return (
             <Container fluid={true}>
                 <Row className="justify-content-around text-center">
-                    <Carousel>
-                        {this.makeItems(this.state.items)}
-                    </Carousel>
+                    <Media query="(max-width: 767px)">
+                        {matches => matches ? (
+                            <Carousel>
+                                {this.makeItems(this.state.items)}
+                            </Carousel>
+                        ) : (
+                                <div>{this.makeItems(this.state.items)}</div>
+                            )
+                        }
+                    </Media>
+
                 </Row>
             </Container>
         );
