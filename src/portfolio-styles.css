@@ -73,7 +73,21 @@ a:hover, a:active {
     border-color: #a72526;
 }
 
-/* Gallery */
+/* Gallery/Carousel */
+.carousel .slide {
+    background: transparent;
+}
+.carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    content: "";
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 15px solid #bf2a2b;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 15px solid #bf2a2b;
+}
 .g-card {
     margin: 20px;
     cursor: pointer;
