@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 
 
 export default (props) =>
-    <Navbar className="sticky-inner bg-white border-bottom" bg="transparent" expand="lg">
+    <Navbar className="sticky-inner border-bottom" bg="white" expand="lg">
         <Navbar.Brand className="font-weight-bold">
             <h1 className="d-inline-block navbar-title m-0">{props.title}
                 <span className="d-none font-italic">{props.subtitle}</span></h1>
