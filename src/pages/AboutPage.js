@@ -14,7 +14,7 @@ function AboutPage(props) {
                         <p>Outside of the office, I tend to be the fun-loving adventurous type, always seeking new sites and taking on new types of challenges. I like to spend my time cooking, gardening, drawing, weightlifting, running, and mountain biking. Although I am passionate about living a healthy lifestyle, I do also enjoy the occasional happy hour or get together with coworkers and friends. I love to stay busy and on the move, both in and out of the workplace.</p>
                     </div>
                     <div className="d-flex justify-content-end">
-                        {props.about.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description} className="about-img" />)}
+                        {props.about.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description} className="about-img pl-0 pl-md-5" />)}
                     </div>
                 </div>
             </Content>
