@@ -37,7 +37,10 @@
 .display-2 {
     font-size: 3.75rem;
 }
-.display-5 {
+.display-3 {
+    font-size: 2rem;
+}
+.display-4 {
     font-size: 1.75rem;
 }
 
@@ -121,7 +124,10 @@ footer a:hover {
     .display-2 {
         font-size: 2.75rem!important;
     }
-    .display-5 {
+    .display-3 {
+        font-size: 1.75rem!important;
+    }
+    .display-4 {
         font-size: 1.5rem!important;
     }
 }
@@ -132,11 +138,17 @@ footer a:hover {
     .display-2 {
         font-size: 1.75rem!important;
     }
-    .display-5 {
+    .display-3 {
+        font-size: 1.5rem!important;
+    }
+    .display-4 {
         font-size: 1.25rem!important;
     }
 }
 @media (max-width: 767px) {
+    .display-3 {
+        font-size: 1.25rem!important;
+    }
     .main-container {
         background-position: bottom 9rem center;
     }
