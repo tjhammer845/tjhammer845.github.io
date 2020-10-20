@@ -15,7 +15,7 @@ class Gallery extends React.Component {
         items: [
             {
                 id: 0,
-                title: 'Best of Bob\'s Premium Rewards Program',
+                title: 'Bob\'s Premium Rewards Program',
                 subTitle: 'A Bob\'s Store membership program loaded with exclusive benefits and rewards built under Clarus Commerce.',
                 imgSrc: bobs,
                 link: 'https://www.bestofbobspremium.com/',
