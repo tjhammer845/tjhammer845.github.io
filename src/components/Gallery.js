@@ -79,8 +79,9 @@ class Gallery extends React.Component {
                 <Row className='justify-content-around text-center'>
                     <Media queries={{
                         small: "(max-width: 767px)",
-                        medium: "(min-width: 768px) and (max-width: 1899px)",
-                        large: "(min-width: 1900px)"
+                        medium: "(min-width: 768px) and (max-width: 1199px)",
+                        large: "(min-width: 1200px) and (max-width: 2006px)",
+                        xlarge: "(min-width: 2007px)"
                     }}>
                         {matches => (
                             <div>
@@ -88,10 +89,14 @@ class Gallery extends React.Component {
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
                                 {matches.medium && <Carousel centerMode
+                                    centerSlidePercentage={50}>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}
+                                {matches.large && <Carousel centerMode
                                     centerSlidePercentage={33.33}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.large && <div>{this.makeItems(this.state.items)}</div>}
+                                {matches.xlarge && <div>{this.makeItems(this.state.items)}</div>}
                             </div>
                         )}
                     </Media>
