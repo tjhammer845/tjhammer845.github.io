@@ -4,7 +4,7 @@ import CardInfo from '../components/CardInfo';
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 function Card(props) {
-    const [isShown, setIsShown] = useState(false);
+    const [isShown, setIsShown] = useState(true);
 
     return (
 
