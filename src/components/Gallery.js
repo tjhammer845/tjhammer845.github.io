@@ -77,21 +77,24 @@ class Gallery extends React.Component {
         return (
             <Container fluid={true}>
                 <Row className='justify-content-around text-center'>
-                    <Media query='((min-width: 768px) and (max-width: 1990px))'>
-                        {matches => matches ? (
-                            <Carousel centerMode
-                                centerSlidePercentage={33.33}>
-                                {this.makeItems(this.state.items)}
-                            </Carousel>
-                        ) : (
-                                <Carousel>
+                    <Media queries={{
+                        small: "(max-width: 767px)",
+                        medium: "(min-width: 768px) and (max-width: 1899px)",
+                        large: "(min-width: 1900px)"
+                    }}>
+                        {matches => (
+                            <div>
+                                {matches.small && <Carousel>
                                     {this.makeItems(this.state.items)}
-                                </Carousel>
-                                // <div>{this.makeItems(this.state.items)}</div>
-                            )
-                        }
+                                </Carousel>}
+                                {matches.medium && <Carousel centerMode
+                                    centerSlidePercentage={33.33}>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}
+                                {matches.large && <div>{this.makeItems(this.state.items)}</div>}
+                            </div>
+                        )}
                     </Media>
-
                 </Row>
             </Container>
         );
