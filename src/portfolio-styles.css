@@ -112,10 +112,10 @@ a:hover, a:active {
     border-bottom: 40px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 33px solid rgba(255,255,255,0.9);
+    border-left: 33px solid white;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 33px solid rgba(255,255,255,0.9);
+    border-right: 33px solid white;
 }
 .g-card {
     margin: 20px;
