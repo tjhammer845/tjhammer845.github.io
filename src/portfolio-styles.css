@@ -92,6 +92,9 @@ a:hover, a:active {
 .carousel .slide {
     background: transparent;
 }
+.carousel.carousel-slider {
+    height: calc(100% + 40px);
+}
 .carousel.carousel-slider .control-arrow:hover {
     background: transparent
 }
