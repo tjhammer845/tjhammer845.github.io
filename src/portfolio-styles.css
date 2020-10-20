@@ -108,14 +108,18 @@ a:hover, a:active {
     background: rgba(191,42,43,0.9);
 }
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
+    border-top: none;
+    border-bottom: none;
+    font-family: "Font Awesome 5 Free";
+    color: white;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 33px solid white;
+    border-left: none;
+    content: "\f138";
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 33px solid white;
+    border-right: none;
+    content: "\f137"
 }
 .g-card {
     margin: 20px;
