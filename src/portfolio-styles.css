@@ -213,67 +213,6 @@ footer a:hover {
         font-size: 1.5rem;
     }
 }
-@media (max-width: 1520px) {
-        /* show 3 items */
-        .slider.active,
-        .slider.active + .slide,
-        .slider.active + .slide + .slide {
-            display: block;
-        }
-    
-        .slider.slide.active:not(.slide-right):not(.slide-left),
-        .slider.slide.active:not(.slide-right):not(.slide-left) + .slide,
-        .slider.slide.active:not(.slide-right):not(.slide-left) + .slide + .slide {
-            transition: none;
-        }
-    
-        .slider.slide-next,
-        .slider.slide-prev {
-          position: relative;
-          transform: translate3d(0, 0, 0);
-        }
-    
-        .slider.active.slide + .slide + .slide + .slide {
-            position: absolute;
-            top: 0;
-            right: -33.3333%;
-            z-index: -1;
-            display: block;
-            visibility: visible;
-        }
-    
-        /* left or forward direction */
-        .active.slide-left + .slide-next.slide-left,
-        .slide-next.slide-left + .slide,
-        .slide-next.slide-left + .slide + .slide,
-        .slide-next.slide-left + .slide + .slide + .slide {
-            position: relative;
-            transform: translate3d(-100%, 0, 0);
-            visibility: visible;
-        }
-    
-        /* farthest right hidden item must be abso position for animations */
-        .slider.slide-prev.slide-right {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            display: block;
-            visibility: visible;
-        }
-    
-        /* right or prev direction */
-        .active.slide-right + .slide-prev.slide-right,
-        .slide-prev.slide-right + .slide,
-        .slide-prev.slide-right + .slide + .slide,
-        .slide-prev.slide-right + .slide + .slide + .slide {
-            position: relative;
-            transform: translate3d(100%, 0, 0);
-            visibility: visible;
-            display: block;
-            visibility: visible;
-        }
-}
 @media (max-width: 991px) {
     .display-1 {
         font-size: 1.89rem;
