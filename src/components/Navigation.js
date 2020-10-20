@@ -12,7 +12,7 @@ function Navigation(props) {
                     <span className='d-none font-italic'>{props.subtitle}</span></h1>
             </Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
-            <Navbar.Collapse id='navbar-toggle' rootClose>
+            <Navbar.Collapse id='navbar-toggle'>
                 <Nav className='ml-auto'>
                     <Link className='nav-link text-uppercase p-0' to='/react-portfolio-tjh'>Home</Link>
                     <Link className='nav-link text-uppercase p-0 pl-md-5' to='/about'>About</Link>
