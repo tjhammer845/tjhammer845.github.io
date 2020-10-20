@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Navigation(props) {
     return (
-        <Navbar className='sticky-inner border-bottom' bg='white' expand='lg'>
+        <Navbar className='sticky-inner border-bottom' expand='lg'>
             <Navbar.Brand className='font-weight-bold'>
                 <h1 className='d-inline-block navbar-title m-0'>{props.title}
                     <span className='d-none font-italic'>{props.subtitle}</span></h1>

@@ -21,6 +21,7 @@
     left: 1rem;
     right: 1rem;
     z-index: 1;
+    background-color: #f7f7f7;
 }
 
 /* Main Container */
@@ -111,10 +112,10 @@ a:hover, a:active {
     border-bottom: 40px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 33px solid rgba(191,42,43,0.9);
+    border-left: 33px solid rgba(255,255,255,0.9);
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 33px solid rgba(191,42,43,0.9);
+    border-right: 33px solid rgba(255,255,255,0.9);
 }
 .g-card {
     margin: 20px;
@@ -194,8 +195,6 @@ footer a:hover {
 }
 footer font {
     font-size: 14px;
-    color: #962122;
-    font-weight: 600;
 }
 
 
@@ -240,5 +239,6 @@ footer font {
     }
     .carousel .control-dots {
         display: block;
+        height: 10px;
     }
 }
