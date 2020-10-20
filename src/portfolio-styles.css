@@ -96,11 +96,7 @@ a:hover, a:active {
     background: transparent
 }
 .carousel .carousel-status {
-    color: #ddd;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 400;
-    text-shadow: none;
+    display: none;
 }
 .carousel .control-dots {
     height: 10px;
@@ -187,7 +183,6 @@ label {
 
 /* Footer */
 footer {
-    box-shadow: 0 0 3px 1px #999;
     min-height: 60px;
 }
 footer a {
@@ -195,6 +190,9 @@ footer a {
 }
 footer a:hover {
     color: #CCC;
+}
+footer font {
+    font-size: 14px;
 }
 
 
@@ -236,8 +234,5 @@ footer a:hover {
 @media (max-width: 767px) {
     .main-container {
         background-position: bottom 9rem center;
-    }
-    .carousel .carousel-status {
-        top: -10px;
     }
 }
