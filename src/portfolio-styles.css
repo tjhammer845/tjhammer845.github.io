@@ -229,13 +229,13 @@ footer a:hover {
     .display-5 {
         font-size: 1.25rem;
     }
+    .navbar-light .navbar-nav .nav-link {
+        margin-bottom: .75rem;
+    }
 }
 @media (max-width: 767px) {
     .main-container {
         background-position: bottom 9rem center;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        margin-bottom: .75rem;
     }
     .carousel .carousel-status {
         top: -10px;

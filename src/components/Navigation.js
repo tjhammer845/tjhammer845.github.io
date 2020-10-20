@@ -15,9 +15,9 @@ function Navigation(props) {
             <Navbar.Collapse id='navbar-toggle'>
                 <Nav className='ml-auto'>
                     <Link className='nav-link text-uppercase p-0' to='/react-portfolio-tjh'>Home</Link>
-                    <Link className='nav-link text-uppercase p-0 pl-md-5' to='/about'>About</Link>
-                    <Link className='nav-link text-uppercase p-0 pl-md-5' to='/workflow'>Workflow</Link>
-                    <Link className='nav-link text-uppercase p-0 pl-md-5' to='/contact'>Let&rsquo;s Chat</Link>
+                    <Link className='nav-link text-uppercase p-0 pl-lg-5' to='/about'>About</Link>
+                    <Link className='nav-link text-uppercase p-0 pl-lg-5' to='/workflow'>Workflow</Link>
+                    <Link className='nav-link text-uppercase p-0 pl-lg-5' to='/contact'>Let&rsquo;s Chat</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
