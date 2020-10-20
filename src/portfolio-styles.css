@@ -32,6 +32,9 @@
 }
 
 /* Main Navigation */
+.navbar {
+    z-index: 10;
+}
 .navbar-light .navbar-nav .nav-link {
     font-size: 1rem;
     font-weight: 600;
@@ -230,6 +233,9 @@ footer a:hover {
 @media (max-width: 767px) {
     .main-container {
         background-position: bottom 9rem center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-bottom: .75rem;
     }
     .carousel .carousel-status {
         top: -10px;
