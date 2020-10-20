@@ -10,7 +10,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkflowPage from './pages/WorkflowPage';
 import ContactPage from './pages/ContactPage';
-import tomAndBentleyImg from "./assets/images/about-image.jpg";
+import tomAndBentleyImg from './assets/images/about-image.jpg';
 
 
 class App extends React.Component {
@@ -55,12 +55,12 @@ class App extends React.Component {
     render() {
         return (
             <Router>
-                <Container className="main-container" fluid={true}>
+                <Container className='main-container' fluid={true}>
                     <Sticky {...this.state} />
-                    <Route path="/react-portfolio-tjh" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-                    <Route path="/about" render={() => <AboutPage about={this.state.about} title={this.state.about.title} />} />
-                    <Route path="/workflow" render={() => <WorkflowPage title={this.state.workflow.title} />} />
-                    <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+                    <Route path='/react-portfolio-tjh' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+                    <Route path='/about' render={() => <AboutPage about={this.state.about} title={this.state.about.title} />} />
+                    <Route path='/workflow' render={() => <WorkflowPage title={this.state.workflow.title} />} />
+                    <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} />} />
                 </Container>
                 <Footer />
             </Router >

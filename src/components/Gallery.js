@@ -78,10 +78,10 @@ class Gallery extends React.Component {
             <Container fluid={true}>
                 <Row className='justify-content-around text-center'>
                     <Media queries={{
-                        small: "(max-width: 767px)",
-                        medium: "(min-width: 768px) and (max-width: 1199px)",
-                        large: "(min-width: 1200px) and (max-width: 2006px)",
-                        xlarge: "(min-width: 2007px)"
+                        small: '(max-width: 767px)',
+                        medium: '(min-width: 768px) and (max-width: 1199px)',
+                        large: '(min-width: 1200px) and (max-width: 2006px)',
+                        xlarge: '(min-width: 2007px)'
                     }}>
                         {matches => (
                             <div>
