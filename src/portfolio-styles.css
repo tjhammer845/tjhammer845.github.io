@@ -69,7 +69,7 @@ a {
     color: #bf2a2b;
 }
 a:hover, a:active {
-    color: #a72526;
+    color: #962122;
 }
 .btn-primary {
     background: #bf2a2b;
@@ -84,8 +84,8 @@ a:hover, a:active {
 .btn-primary:not(:disabled):not(.disabled).active,
  .btn-primary:not(:disabled):not(.disabled):active,
   .show>.btn-primary.dropdown-toggle {
-    background: #a72526;
-    border-color: #a72526;
+    background: #962122;
+    border-color: #962122;
 }
 
 /* Gallery/Carousel */
@@ -100,7 +100,7 @@ a:hover, a:active {
     display: none;
 }
 .carousel .control-dots {
-    height: 10px;
+    display: none;
 }
 .carousel .control-dots .dot {
     box-shadow: none;
@@ -178,7 +178,7 @@ label {
   padding: 10px 15px;
 }
 .err-msg {
-  color: #a72526;
+  color: #962122;
   padding: 10px 15px;
 }
 
@@ -194,6 +194,8 @@ footer a:hover {
 }
 footer font {
     font-size: 14px;
+    color: #962122;
+    font-weight: 600;
 }
 
 
@@ -235,5 +237,8 @@ footer font {
 @media (max-width: 767px) {
     .main-container {
         background-position: bottom 9rem center;
+    }
+    .carousel .control-dots {
+        display: block;
     }
 }
