@@ -4,7 +4,7 @@ import CardInfo from '../components/CardInfo';
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 function Card(props) {
-    const [isShown, setIsShown] = useState(true);
+    const [isShown, setIsShown] = useState(false);
 
     return (
 
@@ -24,8 +24,8 @@ function Card(props) {
                                 onMouseEnter={() => setIsShown(true)}
                                 onMouseLeave={() => setIsShown(false)}>
                                 <img className='g-card-image' src={props.item.imgSrc} alt={props.item.imgSrc} />
-                                {isShown || (
-                                    props.item.selected || <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} />
+                                {isShown || props.item.selected(
+                                    <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} />
                                 )}
                             </div>
                         )
