@@ -96,7 +96,10 @@ class Gallery extends React.Component {
                                     centerSlidePercentage={33.33}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.xlarge && <div>{this.makeItems(this.state.items)}</div>}
+                                {matches.xlarge && <Carousel centerMode
+                                    centerSlidePercentage={25}>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}}
                             </div>
                         )}
                     </Media>

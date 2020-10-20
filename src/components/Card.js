@@ -7,7 +7,6 @@ function Card(props) {
     const [isShown, setIsShown] = useState(false);
 
     return (
-
         <CSSTransitionGroup
             transitionName='g-card-info'
             transitionEnterTimeout={500}
