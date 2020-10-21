@@ -1,7 +1,6 @@
 /*** PORTFOLIO APP STYLES ***/
 /****************************/
 
-
 /* General */
 .color-red {
     color: #e04344;
@@ -109,21 +108,14 @@ a:hover, a:active {
     background: rgba(191,42,43,0.9);
 }
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
-    border-top: none;
-    border-bottom: none;
-    color: white;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: none;
-    font-family: "Font Awesome 5 Solid";
-    font-weight: 400;
-    content: "\f138";
+    border-left: 33px solid white;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: none;
-    font-family: "Font Awesome 5 Solid";
-    font-weight: 400;
-    content: "\f137";
+    border-right: 33px solid white;
 }
 .g-card {
     margin: 20px;
