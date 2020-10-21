@@ -114,16 +114,16 @@ a:hover, a:active {
     padding: 0;
 }
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 33px solid #e04344;
-    margin-right: -15px;
+    border-left: 25px solid #e04344;
+    margin-right: -12px;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 33px solid #e04344;
-    margin-left: -15px;
+    border-right: 25px solid #e04344;
+    margin-left: -12px;
 }
 .g-card {
     margin: 20px;
