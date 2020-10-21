@@ -7,7 +7,7 @@ import Logo from './Logo';
 
 
 function Navigation(props) {
-    let page = this.props.location.pathname.substr(1);
+    let page = props.location.pathname.substr(1);
     if (!page) page = 'home';
     return (
         <Navbar className='sticky-inner border-bottom' expand='lg'>
