@@ -134,7 +134,7 @@ a:hover, a:active {
     border-radius: 10px;
     width: 100%;
     max-width: 450px;
-    box-shadow: 0px 0px 3px 1px #666;
+    box-shadow: 0 4px 3px 0px #666;
 }
 .g-card-image:hover {
     border: solid 3px #e04344;
