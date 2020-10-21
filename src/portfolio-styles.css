@@ -90,6 +90,9 @@ a:hover, a:active {
 }
 
 /* Gallery/Carousel */
+.carousel.carousel-slider {
+    overflow: visible;
+}
 .carousel .slide {
     background: transparent;
     padding-bottom: 1rem;
@@ -107,15 +110,20 @@ a:hover, a:active {
     box-shadow: none;
     background: rgba(191,42,43,0.9);
 }
+.carousel.carousel-slider .control-arrow {
+    padding: 0;
+}
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
     border-left: 33px solid #e04344;
+    margin-right: -33px;
 }
 .carousel .control-prev.control-arrow:before {
     border-right: 33px solid #e04344;
+    margin-left: -33px;
 }
 .g-card {
     margin: 20px;
