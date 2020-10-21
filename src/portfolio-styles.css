@@ -26,9 +26,8 @@
 
 /* Main Container */
 .main-container {
-    background-image: url("./assets/images/logo-white.png");
     padding-bottom: 13rem;
-    background-position: bottom 16rem left -5rem;
+    background-position: bottom 7rem left -5rem;
     background-repeat: no-repeat;
 }
 
