@@ -243,6 +243,7 @@ footer font {
 }
 @media (max-width: 767px) {
     .main-container {
+        background-image: url("./assets/images/logo-white-mobile.png");
         background-position: bottom 9rem center;
     }
     .carousel .control-dots {
