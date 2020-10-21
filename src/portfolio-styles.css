@@ -119,11 +119,11 @@ a:hover, a:active {
 }
 .carousel .control-next.control-arrow:before {
     border-left: 33px solid #e04344;
-    margin-right: -33px;
+    margin-right: -15px;
 }
 .carousel .control-prev.control-arrow:before {
     border-right: 33px solid #e04344;
-    margin-left: -33px;
+    margin-left: -15px;
 }
 .g-card {
     margin: 20px;
