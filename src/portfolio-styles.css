@@ -115,17 +115,15 @@ a:hover, a:active {
 }
 .carousel .control-next.control-arrow:before {
     border-left: none;
-    content: "\f138";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
-    content: "\f1ea";
+    content: "\f138";
 }
 .carousel .control-prev.control-arrow:before {
     border-right: none;
-    content: "\f137";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
-    content: "\f1ea";
+    content: "\f137";
 }
 .g-card {
     margin: 20px;
