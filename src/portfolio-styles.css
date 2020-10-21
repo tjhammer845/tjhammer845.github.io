@@ -115,13 +115,13 @@ a:hover, a:active {
 }
 .carousel .control-next.control-arrow:before {
     border-left: none;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
     font-weight: 400;
     content: "\f138";
 }
 .carousel .control-prev.control-arrow:before {
     border-right: none;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Solid";
     font-weight: 400;
     content: "\f137";
 }
