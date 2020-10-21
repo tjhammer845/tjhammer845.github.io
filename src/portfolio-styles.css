@@ -95,7 +95,7 @@ a:hover, a:active {
     padding-bottom: 1rem;
 }
 .carousel.carousel-slider .control-arrow:hover {
-    background: transparent
+    background: transparent;
 }
 .carousel .carousel-status {
     display: none;
@@ -112,10 +112,10 @@ a:hover, a:active {
     border-bottom: 40px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 33px solid white;
+    border-left: 33px solid #e04344;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 33px solid white;
+    border-right: 33px solid #e04344;
 }
 .g-card {
     margin: 20px;
