@@ -2,9 +2,6 @@
 /****************************/
 
 
-/* Import Font Awesome */
-@import "https://pro.fontawesome.com/releases/v5.10.0/css/all.css";
-
 /* General */
 .color-red {
     color: #e04344;
@@ -114,16 +111,21 @@ a:hover, a:active {
 .carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
     border-top: none;
     border-bottom: none;
-    font-family: "Font Awesome 5 Free";
     color: white;
 }
 .carousel .control-next.control-arrow:before {
     border-left: none;
     content: "\f138";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f1ea";
 }
 .carousel .control-prev.control-arrow:before {
     border-right: none;
-    content: "\f137"
+    content: "\f137";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f1ea";
 }
 .g-card {
     margin: 20px;
