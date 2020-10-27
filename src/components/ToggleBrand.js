@@ -20,7 +20,6 @@ class ToggleBrand extends React.Component {
         this.onClick = this.onClick.bind(this);
         this.state = { hidden: true };
     }
-
     onClick() {
         this.setState((prevState, props) => ({
             hidden: !(prevState.hidden)
@@ -28,9 +27,9 @@ class ToggleBrand extends React.Component {
     }
     render() {
         return <div>
-            <div onClick={this.onClick}>Click me1</div>
+            <h1 onClick={this.onClick} className='d-inline-block navbar-title m-0'>{this.props.title}</h1>
+            <span className='font-italic'>{this.props.subtitle}</span>
             <Toggle hidden={this.state.hidden}>I am toggle</Toggle>
-            <div>Something else.</div>
         </div>;
     }
 }
