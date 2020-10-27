@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserView, MobileView, isBrowser, isMobile } from "react-device-detect";
+import { BrowserView, MobileView } from "react-device-detect";
 import CardInfo from '../components/CardInfo';
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 

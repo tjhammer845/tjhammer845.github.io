@@ -86,6 +86,7 @@ a:hover, a:active {
  }
 .navbar-title {
     font-size: 1.7rem;
+    cursor: pointer;
 }
 
 /* Logo Toggle */
@@ -94,11 +95,11 @@ a:hover, a:active {
 }
 .toggle-enter {
     animation: slideIn forwards;
-    animation-duration: 800ms;
+    animation-duration: 1800ms;
 }
 .toggle-leave {
     animation: slideOut backwards;
-    animation-duration: 300ms;
+    animation-duration: 600ms;
 }
 @keyframes slideIn {
     0% {
