@@ -27,7 +27,7 @@ class ToggleBrand extends React.Component {
     }
     render() {
         return <div>
-            <h1 onClick={this.onClick} title={this.props.title} className='d-inline-block text-uppercase navbar-title m-0'>{this.props.title}</h1>
+            <h1 onClick={this.onClick} title={this.props.title} className='d-inline-block navbar-title m-0'>{this.props.title}</h1>
             <Toggle className='font-italic' hidden={this.state.hidden}>{this.props.subtitle}</Toggle>
         </div>;
     }
