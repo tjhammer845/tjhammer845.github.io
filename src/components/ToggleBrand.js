@@ -3,7 +3,7 @@ import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 class Toggle extends React.Component {
     render() {
-        return <h4 title={this.props.subtitle} className='font-italic'>
+        return <h4 title={this.props.subtitle} className='font-italic d-block d-md-inline'>
             <CSSTransitionGroup
                 transitionName='toggle'
                 transitionEnterTimeout={300}

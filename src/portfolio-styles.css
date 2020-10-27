@@ -90,14 +90,14 @@ a:hover, a:active {
 
 /* Logo Toggle */
 .toggle-base {
-    height: 20px;
+    width: 445px;
 }
 .toggle-enter {
-    animation-name: fade-in;
-    animation-duration: 300ms;
+    animation-name: slide-in;
+    animation-duration: 800ms;
 }
 .toggle-leave {
-    animation-name: fade-out;
+    animation-name: slide-out;
     animation-duration: 300ms;
 }
 @keyframes fade-in {
@@ -107,13 +107,13 @@ a:hover, a:active {
     }
     to {
         opacity: 1;
-        height: 20px;
+        width: 445px;
     }
 }
 @keyframes fade-out {
     from {
         opacity: 1;
-        height: 20px;
+        width: 445px;
     }
     to {
         opacity: 0;
