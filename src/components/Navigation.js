@@ -10,7 +10,7 @@ function Navigation(props) {
     return (
         <Navbar className='sticky-inner border-bottom' expand='lg'>
             <Navbar.Brand className='font-weight-bold'>
-                <ToggleBrand title={this.props.title} subtitle={this.props.subtitle} />
+                <ToggleBrand {...props} />
             </Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
             <Navbar.Collapse id='navbar-toggle'>
