@@ -93,11 +93,11 @@ a:hover, a:active {
     width: 445px;
 }
 .toggle-enter {
-    animation-name: slide-in;
+    animation-name: fade-in;
     animation-duration: 800ms;
 }
 .toggle-leave {
-    animation-name: slide-out;
+    animation-name: fade-out;
     animation-duration: 300ms;
 }
 @keyframes fade-in {
