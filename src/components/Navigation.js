@@ -3,7 +3,7 @@ import { CSSTransitionGroup } from 'react-transition-group' // ES6
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import ToggleBrand from "./ToggleBrand"
+import ToggleBrand from "./ToggleBrand";
 
 
 function Navigation(props) {
