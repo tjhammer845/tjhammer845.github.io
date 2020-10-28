@@ -98,16 +98,16 @@ class Gallery extends React.Component {
                                 {matches.small && <Carousel autoplay infiniteLoop>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.medium && <Carousel autoplay infiniteLoop
-                                    centerSlidePercentage={50}>
+                                {matches.medium && <Carousel autoplay infiniteLoop centerMode
+                                    centerSlidePercentage={50.0}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
                                 {matches.large && <Carousel autoplay infiniteLoop centerMode
                                     centerSlidePercentage={33.33}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.xlarge && <Carousel infiniteLoop
-                                    centerSlidePercentage={25}>
+                                {matches.xlarge && <Carousel infiniteLoop centerMode
+                                    centerSlidePercentage={25.0}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
                             </div>
