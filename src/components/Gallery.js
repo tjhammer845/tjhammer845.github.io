@@ -107,7 +107,7 @@ class Gallery extends React.Component {
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
                                 {matches.xlarge && <Carousel infiniteLoop centerMode
-                                    centerSlidePercentage={25.0}>
+                                    centerSlidePercentage={33.33}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
                             </div>
