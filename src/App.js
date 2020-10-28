@@ -16,8 +16,8 @@ import tomAndBentleyImg from './assets/images/about-image.jpg';
 class App extends React.Component {
     state = {
         siteTitle: 'TH | Front-End Engineer and Digital Creator',
-        title: 'Tom Hammer ',
-        subtitle: ' | Front-End Engineer and Digital Creator',
+        title: 'Tom Hammer',
+        subtitle: 'Front-End Engineer and Digital Creator',
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },
