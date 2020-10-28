@@ -17,14 +17,6 @@ class Gallery extends React.Component {
         items: [
             {
                 id: 0,
-                title: 'Fresh shine, fresh pup, fresh site to go',
-                subTitle: 'Buggy Car Wash and Barking Bath is the all-in-one spot for your car and dog maintenance.',
-                imgSrc: buggy,
-                link: 'https://buggycarwash.com',
-                selected: false
-            },
-            {
-                id: 1,
                 title: 'A website should be bold and proud',
                 subTitle: 'Partners Bar and Nightclub is a long-lasting staple in New Haven nightlife and the LGBTQ Community.',
                 imgSrc: partners,
@@ -32,7 +24,7 @@ class Gallery extends React.Component {
                 selected: false
             },
             {
-                id: 2,
+                id: 1,
                 title: 'Responsive UI keeps the world turning',
                 subTitle: 'Satisfying many users of the Yale MFA-DUO, CAS-SSO and NetID Management Applications.',
                 imgSrc: yale,
@@ -40,7 +32,7 @@ class Gallery extends React.Component {
                 selected: false
             },
             {
-                id: 3,
+                id: 2,
                 title: 'Bob\'s Premium Rewards Program',
                 subTitle: 'A Bob\'s Store membership program loaded with exclusive benefits and rewards built under Clarus Commerce.',
                 imgSrc: bobs,
@@ -48,13 +40,13 @@ class Gallery extends React.Component {
                 selected: false
             },
             {
-                id: 4,
-                title: 'More to come!',
-                subTitle: 'Please check back soon. I am working hard to finalize some new work.',
-                imgSrc: soon,
-                link: '/',
+                id: 3,
+                title: 'Fresh shine, fresh pup, fresh site to go',
+                subTitle: 'Buggy Car Wash and Barking Bath is the all-in-one spot for your car and dog maintenance.',
+                imgSrc: buggy,
+                link: 'https://buggycarwash.com',
                 selected: false
-            }
+            },
         ]
     };
 
