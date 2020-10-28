@@ -94,6 +94,8 @@ a:hover, a:active {
     width: 100%;
     max-width: 370px;
     font-size: 1.25rem;
+    height: 40px;
+    line-height: 40px;
 }
 .toggle-enter {
     animation: slide-in 600ms forwards;
