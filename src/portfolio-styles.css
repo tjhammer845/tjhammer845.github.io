@@ -101,11 +101,39 @@ a:hover, a:active {
     animation: slide-out 0.5s forwards;
 }
 @keyframes slide-in {
-    100% { transform: translateX(0%); }
+    0%   { 
+        left: -500px;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+    }
+    50%, 100% {
+        left: -500px;
+        padding: 20px;
+        margin: 10px 0;
+        max-height: 99px;
+    }
+    100% { 
+        left: 0;
+    }
 }
+
 @keyframes slide-out {
-    0% { transform: translateX(0%); }
-    100% { transform: translateX(-100%); }
+    0%, 50% { 
+        left: 0; 
+        padding: 20px;
+        margin: 10px 0;
+        max-height: 99px;
+    }
+    50% {
+        left: -500px; 
+    }
+    100% { 
+        left: -500px; 
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+    }
 }
 
 /* Gallery/Carousel */
