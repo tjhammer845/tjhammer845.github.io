@@ -97,8 +97,8 @@ a:hover, a:active {
     height: 40px;
     line-height: 40px;
 }
-.toggle-base:before {
-    content: " &vert; "
+.toggle-base span span:before {
+    content: " | "
 }
 .toggle-enter {
     animation: slide-in 600ms forwards;
