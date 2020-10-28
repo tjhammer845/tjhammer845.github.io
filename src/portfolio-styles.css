@@ -90,38 +90,23 @@ a:hover, a:active {
 }
 
 /* Logo Toggle */
-@keyframes slide-right {
-    from {
-        margin-left: -500px;
-      }
-    
-      to {
-        margin-left: 0%;
-      }
-  }
-@keyframes slide-left {
-    from {
-        margin-right: -500px;
-      }
-    
-      to {
-        margin-right: 0%;
-      }
-}
 .toggle-base {
     width: 100%;
-    overflow: hidden;
     max-width: 500px;
 }
 .toggle-enter {
-    animation: 2s slide-right;
-    animation-delay: 2s;
+    animation: slide-in 0.5s forwards;
 }
 .toggle-leave {
-    animation: 2s slide-left;
-    animation-delay: 2s;
+    animation: slide-out 0.5s forwards;
 }
-
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
 
 /* Gallery/Carousel */
 .carousel.carousel-slider {
