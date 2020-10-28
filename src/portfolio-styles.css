@@ -90,19 +90,6 @@ a:hover, a:active {
 }
 
 /* Logo Toggle */
-.toggle-base {
-    width: 100%;
-    overflow: hidden;
-    max-width: 500px
-}
-.toggle-enter {
-    animation: 2s slide-right;
-    animation-delay: 2s;
-}
-.toggle-leave {
-    animation: 2s slide-left;
-    animation-delay: 2s;
-}
 @keyframes slide-right {
     from {
         margin-left: -500px;
@@ -121,6 +108,20 @@ a:hover, a:active {
         margin-right: 0%;
       }
 }
+.toggle-base {
+    width: 100%;
+    overflow: hidden;
+    max-width: 500px;
+}
+.toggle-enter {
+    animation: 2s slide-right;
+    animation-delay: 2s;
+}
+.toggle-leave {
+    animation: 2s slide-left;
+    animation-delay: 2s;
+}
+
 
 /* Gallery/Carousel */
 .carousel.carousel-slider {
