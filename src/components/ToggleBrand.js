@@ -8,9 +8,8 @@ class Toggle extends React.Component {
                 transitionName='toggle'
                 transitionEnterTimeout={600}
                 transitionLeaveTimeout={600}
-                className='d-flex align-items-center'
             >
-                {this.props.hidden ? null : <span className='toggle-base font-italic'>{this.props.children}</span>}
+                {this.props.hidden ? null : <span className='toggle-base font-italic align-self-center'>{this.props.children}</span>}
             </CSSTransitionGroup>
         </h4 >
     }
