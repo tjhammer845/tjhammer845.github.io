@@ -94,27 +94,27 @@ a:hover, a:active {
     width: 445px;
 }
 .toggle-enter {
-    animation: slideIn forwards;
+    animation: slide-in forwards;
     animation-duration: 1800ms;
 }
 .toggle-leave {
-    animation: slideOut backwards;
+    animation: slide-out backwards;
     animation-duration: 600ms;
 }
-@keyframes slideIn {
+@keyframes slide-in {
     0% {
-        transform: translateX(-445px);
-      }
-    100% {
-        transform: translateX(0);
+        transform: translateX(100%);
     }
-}
-@keyframes slideOut {
-    0% {
-        transform: translateX(0);
-      }
     100% {
-        transform: translateX(-445px);
+        transform: translateX(0%);
+    }
+  }
+@keyframes slide-out {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
     }
 }
 
