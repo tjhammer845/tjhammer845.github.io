@@ -7,7 +7,7 @@ import ToggleBrand from "./ToggleBrand";
 
 function Navigation(props) {
     return (
-        <Navbar className='sticky-inner border-bottom border-white' expand='lg'>
+        <Navbar className='sticky-inner border-bottom' expand='lg'>
             <Navbar.Brand className='font-weight-bold'>
                 <ToggleBrand {...props} />
             </Navbar.Brand>

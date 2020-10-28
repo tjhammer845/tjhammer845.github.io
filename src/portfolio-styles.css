@@ -21,7 +21,7 @@
     left: 1rem;
     right: 1rem;
     z-index: 1;
-    background-color: #fff2df;
+    background-color: white;
 }
 
 /* Typography */
@@ -66,10 +66,7 @@ a:hover, a:active {
 }
 /* Main Container */
 .main-container {
-    background-image: url("./assets/images/logo-white.png");
     padding-bottom: 13rem;
-    background-position: bottom 7rem left -5rem;
-    background-repeat: no-repeat;
 }
 
 /* Main Navigation */
@@ -302,9 +299,6 @@ footer font {
 }
 @media (max-width: 767px) {
     .main-container {
-        background-image: url("./assets/images/logo-white-mobile.png");
-        background-position: bottom 5.9rem center;
-        background-size: 40%;
         padding-bottom: 16rem;
     }
     .carousel .control-dots {
