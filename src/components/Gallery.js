@@ -49,10 +49,10 @@ class Gallery extends React.Component {
             },
             {
                 id: 4,
-                title: 'More coming soon!',
+                title: 'More to come!',
                 subTitle: 'Please check back soon.',
                 imgSrc: soon,
-                link: null,
+                link: '',
                 selected: false
             }
         ]
