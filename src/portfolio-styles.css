@@ -91,29 +91,35 @@ a:hover, a:active {
 
 /* Logo Toggle */
 .toggle-base {
-    width: 445px;
+    width: 100%;
+    overflow: hidden;
+    max-width: 500px
 }
 .toggle-enter {
-    animation: slide-in 600ms forwards;
+    animation: 2s slide-right;
+    animation-delay: 2s;
 }
 .toggle-leave {
-    animation: slide-out 600ms forwards;
+    animation: 2s slide-left;
+    animation-delay: 2s;
 }
-@keyframes slide-in {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
+@keyframes slide-right {
+    from {
+        margin-left: -500px;
+      }
+    
+      to {
+        margin-left: 0%;
+      }
   }
-@keyframes slide-out {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(100%);
-    }
+@keyframes slide-left {
+    from {
+        margin-right: -500px;
+      }
+    
+      to {
+        margin-right: 0%;
+      }
 }
 
 /* Gallery/Carousel */
