@@ -2,14 +2,14 @@
 /****************************/
 
 /* General */
-.color-red {
-    color: #fa292a;
+.color-gold {
+    color: #b89f5d;
 }
-.bg-red {
-    background-color: #fa292a;
+.bg-gold {
+    background-color: #b89f5d;
 }
-.border-red {
-    border: solid 3px #fa292a;
+.border-gold {
+    border: solid 3px #b89f5d;
 }
 .sticky-wrapper {
     position: relative;
@@ -79,7 +79,7 @@ a:hover, a:active {
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #fa292a;
+    color: #b89f5d;
  }
 .navbar-title {
     font-size: 1.7rem;
@@ -102,7 +102,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 @media (min-width: 768px) {
     .toggle-base span:before {
         content: " | ";
-        color: #fa292a;
+        color: #b89f5d;
         padding-left: .5rem;
         padding-right: .25rem;
     }
@@ -249,12 +249,13 @@ label {
 /* Footer */
 footer {
     min-height: 60px;
+    background: #5a7670;
 }
 footer a {
     color: white;
 }
 footer a:hover {
-    color: #CCC;
+    color: #b89f5d;
 }
 footer font {
     font-size: 14px;

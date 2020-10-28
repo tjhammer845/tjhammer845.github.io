@@ -25,9 +25,9 @@ function Hero(props) {
                     <Col lg={5} md={7} sm={12} className='text-center'>
                         {props.text && <p className='display-3 font-weight-light'>{props.text}</p>}
                         <h2 className='display-4'>
-                            <FontAwesomeIcon className='display-4 p-2 color-red' icon={faPencilRuler} />
-                            <FontAwesomeIcon className='display-4 p-2 color-red' icon={faCode} />
-                            <FontAwesomeIcon className='display-4 p-2 color-red' icon={faGrinWink} /></h2>
+                            <FontAwesomeIcon className='display-4 p-2 color-gold' icon={faPencilRuler} />
+                            <FontAwesomeIcon className='display-4 p-2 color-gold' icon={faCode} />
+                            <FontAwesomeIcon className='display-4 p-2 color-gold' icon={faGrinWink} /></h2>
                     </Col>
                 </Row>
             </Container>

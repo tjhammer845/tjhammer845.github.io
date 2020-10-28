@@ -15,7 +15,7 @@ function AboutPage(props) {
                     </div>
                     <div className='d-flex justify-content-center justify-content-xl-end'>
                         {props.about.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description}
-                            className='about-img border-red mb-5 ml-0 ml-xl-5 mb-xl-0' />)}
+                            className='about-img border-gold mb-5 ml-0 ml-xl-5 mb-xl-0' />)}
                     </div>
                 </div>
             </Content>
