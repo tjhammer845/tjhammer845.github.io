@@ -10,6 +10,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkflowPage from './pages/WorkflowPage';
 import ContactPage from './pages/ContactPage';
+import logoImg from './assets/images/logo.png';
 import tomAndBentleyImg from './assets/images/about-image.jpg';
 
 
@@ -18,6 +19,8 @@ class App extends React.Component {
         siteTitle: 'TH | Front-End Engineer and Digital Creator',
         title: 'Tom Hammer',
         subtitle: 'Front-End Engineer and Digital Creator',
+        logo:
+            { imgSrc: logoImg, title: this.siteTitle },
         headerLinks: [
             { title: 'Home', path: '/react-portfolio-tjh' },
             { title: 'About', path: '/about' },

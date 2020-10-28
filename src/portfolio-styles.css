@@ -163,7 +163,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 }
 .carousel .control-dots .dot {
     box-shadow: none;
-    background: rgba(191,42,43,0.9);
+    background: rgba(184,159,93,0.9);
 }
 .carousel.carousel-slider .control-arrow {
     padding: 0;
@@ -173,11 +173,11 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     border-bottom: 30px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 18px solid #fa292a;
+    border-left: 18px solid #b89f5d;
     margin-right: 0;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 18px solid #fa292a;
+    border-right: 18px solid #b89f5d;
     margin-left: 0;
 }
 .g-card {
@@ -192,7 +192,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     box-shadow: 0 4px 3px 0px #666;
 }
 .g-card-image:hover {
-    border: solid 3px #fa292a;
+    border: solid 3px #5a7670;
     border-radius: 10px;
 }
 .g-card-info {
@@ -242,7 +242,7 @@ label {
   padding: 10px 15px;
 }
 .err-msg {
-  color: #5a7670;
+  color: red;
   padding: 10px 15px;
 }
 
