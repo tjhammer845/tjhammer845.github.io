@@ -3,13 +3,13 @@
 
 /* General */
 .color-red {
-    color: #dfbb12;
+    color: #fa292a;
 }
 .bg-red {
-    background-color: #dfbb12;
+    background-color: #fa292a;
 }
 .border-red {
-    border: solid 3px #dfbb12;
+    border: solid 3px #fa292a;
 }
 .sticky-wrapper {
     position: relative;
@@ -43,15 +43,15 @@
 
 /* Buttons and Links */
 a {
-    color: #dfbb12;
+    color: #b89f5d;
 }
 a:hover, a:active {
-    color: #b89804;
+    color: #5a7670;
 }
 .btn-primary {
-    background: #dfbb12;
-    background-color: #dfbb12;
-    border-color: #dfbb12;
+    background: #b89f5d;
+    background-color: #b89f5d;
+    border-color: #b89f5d;
     padding: .5rem 1.5rem;
     font-size: 1.25rem;
     font-weight: normal;
@@ -61,8 +61,8 @@ a:hover, a:active {
 .btn-primary:not(:disabled):not(.disabled).active,
  .btn-primary:not(:disabled):not(.disabled):active,
   .show>.btn-primary.dropdown-toggle {
-    background: #b89804;
-    border-color: #b89804;
+    background: #5a7670;
+    border-color: #5a7670;
 }
 /* Main Container */
 .main-container {
@@ -79,7 +79,7 @@ a:hover, a:active {
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #dfbb12;
+    color: #fa292a;
  }
 .navbar-title {
     font-size: 1.7rem;
@@ -102,7 +102,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 @media (min-width: 768px) {
     .toggle-base span:before {
         content: " | ";
-        color: #dfbb12;
+        color: #fa292a;
         padding-left: .5rem;
         padding-right: .25rem;
     }
@@ -173,11 +173,11 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     border-bottom: 30px solid transparent;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 18px solid #dfbb12;
+    border-left: 18px solid #fa292a;
     margin-right: 0;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: 18px solid #dfbb12;
+    border-right: 18px solid #fa292a;
     margin-left: 0;
 }
 .g-card {
@@ -192,7 +192,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     box-shadow: 0 4px 3px 0px #666;
 }
 .g-card-image:hover {
-    border: solid 3px #dfbb12;
+    border: solid 3px #fa292a;
     border-radius: 10px;
 }
 .g-card-info {
@@ -242,7 +242,7 @@ label {
   padding: 10px 15px;
 }
 .err-msg {
-  color: #b89804;
+  color: #5a7670;
   padding: 10px 15px;
 }
 
