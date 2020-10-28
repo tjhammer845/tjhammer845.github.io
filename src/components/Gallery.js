@@ -50,9 +50,9 @@ class Gallery extends React.Component {
             {
                 id: 4,
                 title: 'More to come!',
-                subTitle: 'Please check back soon.',
+                subTitle: 'Please check back soon. I am working hard to finalize some new work.',
                 imgSrc: soon,
-                link: '',
+                link: '/',
                 selected: false
             }
         ]
@@ -95,18 +95,18 @@ class Gallery extends React.Component {
                     }}>
                         {matches => (
                             <div>
-                                {matches.small && <Carousel autoplay>
+                                {matches.small && <Carousel autoplay infiniteLoop>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.medium && <Carousel autoplay centerMode
+                                {matches.medium && <Carousel autoplay infiniteLoop centerMode
                                     centerSlidePercentage={50}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.large && <Carousel autoplay centerMode
+                                {matches.large && <Carousel autoplay infiniteLoop centerMode
                                     centerSlidePercentage={33.33}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
-                                {matches.xlarge && <Carousel centerMode
+                                {matches.xlarge && <Carousel infiniteLoop centerMode
                                     centerSlidePercentage={25}>
                                     {this.makeItems(this.state.items)}
                                 </Carousel>}
