@@ -2,13 +2,15 @@ import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Media from 'react-media';
-import Card from './Card';
-import bobs from '../assets/images/bobs.jpg';
-import yale from '../assets/images/yale.jpg';
-import partners from '../assets/images/partners.jpg';
-import buggy from '../assets/images/buggy.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Card from './Card';
+import bobs from '../assets/images/cards/bobs.jpg';
+import yale from '../assets/images/cards/yale.jpg';
+import partners from '../assets/images/cards/partners.jpg';
+import buggy from '../assets/images/cards/buggy.jpg';
+import soon from '../assets/images/cards/soon.jpg';
+
 
 class Gallery extends React.Component {
     state = {
@@ -43,6 +45,14 @@ class Gallery extends React.Component {
                 subTitle: 'A Bob\'s Store membership program loaded with exclusive benefits and rewards built under Clarus Commerce.',
                 imgSrc: bobs,
                 link: 'https://www.bestofbobspremium.com/',
+                selected: false
+            },
+            {
+                id: 4,
+                title: 'More coming soon!',
+                subTitle: 'Please check back soon.',
+                imgSrc: soon,
+                link: null,
                 selected: false
             }
         ]
