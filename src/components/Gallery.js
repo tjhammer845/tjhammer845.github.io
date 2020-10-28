@@ -1,6 +1,7 @@
 import React from 'react';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
+import Media from 'react-media';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Card from './Card';
@@ -10,25 +11,6 @@ import partners from '../assets/images/cards/partners.jpg';
 import buggy from '../assets/images/cards/buggy.jpg';
 import soon from '../assets/images/cards/soon.jpg';
 
-const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 4
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-    }
-}
 
 class Gallery extends React.Component {
     state = {
@@ -105,12 +87,32 @@ class Gallery extends React.Component {
         return (
             <Container fluid={true}>
                 <Row className='justify-content-around text-center'>
-                    <Carousel responsive={responsive}>
-                        <div>Item 1</div>
-                        <div>Item 2</div>
-                        <div>Item 3</div>
-                        <div>Item 4</div>
-                    </Carousel>
+                    <Media queries={{
+                        small: '(max-width: 767px)',
+                        medium: '(min-width: 768px) and (max-width: 1199px)',
+                        large: '(min-width: 1200px) and (max-width: 2006px)',
+                        xlarge: '(min-width: 2007px)'
+                    }}>
+                        {matches => (
+                            <div>
+                                {matches.small && <Carousel autoplay>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}
+                                {matches.medium && <Carousel autoplay centerMode
+                                    centerSlidePercentage={50}>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}
+                                {matches.large && <Carousel autoplay centerMode
+                                    centerSlidePercentage={33.33}>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}
+                                {matches.xlarge && <Carousel centerMode
+                                    centerSlidePercentage={25}>
+                                    {this.makeItems(this.state.items)}
+                                </Carousel>}
+                            </div>
+                        )}
+                    </Media>
                 </Row>
             </Container>
         );
