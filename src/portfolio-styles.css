@@ -92,7 +92,8 @@ a:hover, a:active {
 /* Logo Toggle */
 .toggle-base {
     width: 100%;
-    max-width: 500px;
+    max-width: 370px;
+    font-size: 1.25rem;
 }
 .toggle-enter {
     animation: slide-in 600ms forwards;
@@ -102,11 +103,11 @@ a:hover, a:active {
 }
 @keyframes slide-in {
     0%   { 
-        left: -500px;
+        left: -370px;
         margin: 0;
     }
     50%, 100% {
-        left: -500px;
+        left: -370px;
         padding: 20px;
         margin: 10px 0;
     }
@@ -122,10 +123,10 @@ a:hover, a:active {
         margin: 10px 0;
     }
     50% {
-        left: -500px; 
+        left: -370px; 
     }
     100% { 
-        left: -500px; 
+        left: -370px; 
         padding: 0;
         margin: 0;
     }
