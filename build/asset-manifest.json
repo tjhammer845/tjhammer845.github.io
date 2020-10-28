@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio-tjh/static/css/main.fa150d93.chunk.css",
+    "main.css": "/react-portfolio-tjh/static/css/main.e08339de.chunk.css",
     "main.js": "/react-portfolio-tjh/static/js/main.98663a9e.chunk.js",
     "main.js.map": "/react-portfolio-tjh/static/js/main.98663a9e.chunk.js.map",
     "runtime-main.js": "/react-portfolio-tjh/static/js/runtime-main.4730b83a.js",
@@ -9,15 +9,15 @@
     "static/js/2.0688e025.chunk.js": "/react-portfolio-tjh/static/js/2.0688e025.chunk.js",
     "static/js/2.0688e025.chunk.js.map": "/react-portfolio-tjh/static/js/2.0688e025.chunk.js.map",
     "index.html": "/react-portfolio-tjh/index.html",
-    "precache-manifest.f7e7db0783235ce68160071e04a520ea.js": "/react-portfolio-tjh/precache-manifest.f7e7db0783235ce68160071e04a520ea.js",
+    "precache-manifest.f8be953756877bed9f0d61b0b846417b.js": "/react-portfolio-tjh/precache-manifest.f8be953756877bed9f0d61b0b846417b.js",
     "service-worker.js": "/react-portfolio-tjh/service-worker.js",
     "static/css/2.1bbf9bdc.chunk.css.map": "/react-portfolio-tjh/static/css/2.1bbf9bdc.chunk.css.map",
-    "static/css/main.fa150d93.chunk.css.map": "/react-portfolio-tjh/static/css/main.fa150d93.chunk.css.map",
+    "static/css/main.e08339de.chunk.css.map": "/react-portfolio-tjh/static/css/main.e08339de.chunk.css.map",
     "static/js/2.0688e025.chunk.js.LICENSE.txt": "/react-portfolio-tjh/static/js/2.0688e025.chunk.js.LICENSE.txt",
     "static/media/about-image.jpg": "/react-portfolio-tjh/static/media/about-image.ff5d0bcf.jpg",
     "static/media/bobs.jpg": "/react-portfolio-tjh/static/media/bobs.f4d65053.jpg",
     "static/media/buggy.jpg": "/react-portfolio-tjh/static/media/buggy.ad17bbda.jpg",
-    "static/media/portfolio-styles.css": "/react-portfolio-tjh/static/media/logo-white.d92288fa.png",
+    "static/media/portfolio-styles.css": "/react-portfolio-tjh/static/media/logo-white.71c92d10.png",
     "static/media/partners.jpg": "/react-portfolio-tjh/static/media/partners.c7ddb27c.jpg",
     "static/media/yale.jpg": "/react-portfolio-tjh/static/media/yale.af72c76e.jpg"
   },
@@ -25,7 +25,7 @@
     "static/js/runtime-main.4730b83a.js",
     "static/css/2.1bbf9bdc.chunk.css",
     "static/js/2.0688e025.chunk.js",
-    "static/css/main.fa150d93.chunk.css",
+    "static/css/main.e08339de.chunk.css",
     "static/js/main.98663a9e.chunk.js"
   ]
 }
