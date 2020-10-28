@@ -123,7 +123,11 @@ class Gallery extends React.Component {
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item-padding-40-px"
                     >
-                        {this.makeItems(this.state.items)}
+                        <div>Item 1</div>
+                        <div>Item 2</div>
+                        <div>Item 3</div>
+                        <div>Item 4</div>
+                        {/* {this.makeItems(this.state.items)} */}
                     </Carousel>
                 </Row>
             </Container>
