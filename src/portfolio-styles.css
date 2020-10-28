@@ -94,12 +94,10 @@ a:hover, a:active {
     width: 445px;
 }
 .toggle-enter {
-    animation: slide-in forwards;
-    animation-duration: 1800ms;
+    animation: slide-in 600ms forwards;
 }
 .toggle-leave {
-    animation: slide-out backwards;
-    animation-duration: 600ms;
+    animation: slide-out 600ms forwards;
 }
 @keyframes slide-in {
     0% {

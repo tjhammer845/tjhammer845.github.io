@@ -6,7 +6,7 @@ class Toggle extends React.Component {
         return <h4 title={this.props.subtitle} className='d-block d-md-inline'>
             <CSSTransitionGroup
                 transitionName='toggle'
-                transitionEnterTimeout={1800}
+                transitionEnterTimeout={600}
                 transitionLeaveTimeout={600}>
                 {this.props.hidden ? null : <span className='toggle-base font-italic'>{this.props.children}</span>}
             </CSSTransitionGroup>
