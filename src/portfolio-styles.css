@@ -46,7 +46,7 @@ a {
     color: #b89f5d;
 }
 a:hover, a:active {
-    color: #5a7670;
+    color: #937f4a;
 }
 .btn-primary {
     background: #b89f5d;
@@ -61,8 +61,8 @@ a:hover, a:active {
 .btn-primary:not(:disabled):not(.disabled).active,
  .btn-primary:not(:disabled):not(.disabled):active,
   .show>.btn-primary.dropdown-toggle {
-    background: #5a7670;
-    border-color: #5a7670;
+    background: #937f4a;
+    border-color: #937f4a;
 }
 /* Main Container */
 .main-container {
@@ -192,7 +192,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     box-shadow: 0 4px 3px 0px #666;
 }
 .g-card-image:hover {
-    border: solid 3px #5a7670;
+    border: solid 3px #937f4a;
     border-radius: 10px;
 }
 .g-card-info {
@@ -249,7 +249,7 @@ label {
 /* Footer */
 footer {
     min-height: 60px;
-    background: #5a7670;
+    background: #000;
 }
 footer a {
     color: white;
