@@ -9,7 +9,6 @@ import bobs from '../assets/images/cards/bobs.jpg';
 import yale from '../assets/images/cards/yale.jpg';
 import partners from '../assets/images/cards/partners.jpg';
 import buggy from '../assets/images/cards/buggy.jpg';
-import soon from '../assets/images/cards/soon.jpg';
 
 
 class Gallery extends React.Component {
