@@ -28,9 +28,10 @@ class ToggleBrand extends React.Component {
         }))    //alert(CSSTransitionGroup);
     }
     render() {
-        return <div className='d-block d-md-flex align-content-center'>
-            <img className='logo' src={this.props.logo.imgSrc} alt={this.props.logo.imgSrc} />
-            <h1 onClick={this.onClick} title={this.props.title} className='d-inline-block navbar-title m-0'>{this.props.title}</h1>
+        return <div className='d-flex align-content-center'>
+            <h1 onClick={this.onClick} title={this.props.title} className='d-inline-block navbar-title m-0'>
+                <img className='logo' src={this.props.logo.imgSrc} alt={this.props.logo.imgSrc} />
+                {this.props.title}</h1>
             <Toggle hidden={this.state.hidden}>{this.props.subtitle}</Toggle>
         </div>;
     }
