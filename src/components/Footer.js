@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Footer() {
 
     return (
-        <footer className='mt-5 fixed-bottom bg-gold pl-3 pr-3 border-top'>
+        <footer className='mt-5 fixed-bottom pl-3 pr-3 border-top'>
             <Container fluid={true}>
                 <Row className='justify-content-md-between p-3'>
                     <Col className='d-flex justify-content-center justify-content-md-start pb-2 pb-md-0' md={3} sm={12}>
