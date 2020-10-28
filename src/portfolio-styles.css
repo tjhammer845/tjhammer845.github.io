@@ -88,6 +88,11 @@ a:hover, a:active {
     font-size: 1.7rem;
     cursor: pointer;
 }
+button.navbar-toggler { /* mobile hamburger icon positioning */
+    position: absolute;
+    top: 1rem;
+    right: 0rem;
+}
 
 /* Logo Toggle */
 .toggle-base {
