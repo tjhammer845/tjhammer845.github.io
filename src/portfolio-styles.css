@@ -83,6 +83,7 @@ a:hover, a:active {
  }
 .navbar-title {
     font-size: 1.7rem;
+    color: #112208;
     cursor: pointer;
 }
 button.navbar-toggler { /* mobile hamburger icon positioning */
@@ -98,6 +99,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     font-size: 1.25rem;
     height: 40px;
     line-height: 40px;
+    color: #112208;
 }
 @media (min-width: 768px) {
     .toggle-base span:before {
