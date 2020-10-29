@@ -1,6 +1,6 @@
 {
-    "homepage": "http://tjhammer845.github.io/tjhammer845.github.io",
-    "name": "tjhammer845.github.io",
+    "homepage": "http://tjhammer845.github.io",
+    "name": "tjhammer845",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
