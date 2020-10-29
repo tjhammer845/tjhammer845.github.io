@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-
-import './portfolio-styles.css';
-
 import Sticky from './components/Sticky';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -12,6 +9,7 @@ import WorkflowPage from './pages/WorkflowPage';
 import ContactPage from './pages/ContactPage';
 import logoImg from './assets/images/logo.png';
 import tomAndBentleyImg from './assets/images/about-image.jpg';
+import './portfolio-styles.css';
 
 
 class App extends React.Component {
