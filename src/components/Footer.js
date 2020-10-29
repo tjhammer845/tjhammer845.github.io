@@ -25,7 +25,7 @@ function Footer() {
                         <Link target='_blank' className='p-0' to='./pdf/TH-CV.pdf'><FontAwesomeIcon className='display-5' icon={faFileDownload} /></Link>
                     </Col>
                     <Col className='d-flex justify-content-center justify-content-md-end p-0' md={6} sm={12}>
-                        <font className='text-center align-self-center text-sm-left text-white'>&copy; {new Date().getFullYear()} Tom Hammer. <span className='text-nowrap'>All Rights Reserved.</span></font>
+                        <font className='text-center align-self-center text-sm-left color-gold'>&copy; {new Date().getFullYear()} Tom Hammer. <span className='text-nowrap'>All Rights Reserved.</span></font>
                     </Col>
                 </Row>
             </Container>
