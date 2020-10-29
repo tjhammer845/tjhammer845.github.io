@@ -198,7 +198,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 .g-card-info {
     position: absolute;
     border-radius: 10px;
-    background-color: rgba(0,0,0,0.88);
+    background-color: rgba(17,34,8,0.88);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -249,7 +249,7 @@ label {
 /* Footer */
 footer {
     min-height: 60px;
-    background: #000;
+    background: #112208;
 }
 footer a {
     color: white;
