@@ -6,7 +6,7 @@ function CardInfo(props) {
     return (
         <animated.div className='g-card-info d-flex flex-wrap align-content-center justify-content-center p-3' style={style}>
             <p className='g-card-title text-white'>{props.title}</p>
-            <p className='g-card-sub-title text-white'>{props.subTitle}</p>
+            <p className='g-card-sub-title text-white mb-4'>{props.subTitle}</p>
             <a href={props.link} target='_blank' className='btn btn-primary' rel='noopener noreferrer'>View Website</a>
         </animated.div>
     );
