@@ -76,6 +76,7 @@ a:hover, a:active {
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.25rem;
     font-weight: 600;
+    color:rgba(17,34,8,0.8);
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
@@ -200,7 +201,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 .g-card-info {
     position: absolute;
     border-radius: 10px;
-    background-color: rgba(17,34,8,0.88);
+    background-color: rgba(17,34,8,0.9);
     height: 100%;
     width: 100%;
     position: absolute;
