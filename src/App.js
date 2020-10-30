@@ -16,7 +16,7 @@ class App extends React.Component {
     state = {
         title: 'Tom Hammer',
         subtitle: 'Front-End Engineer and Digital Creator',
-        siteTitle: this.titel + ' | ' + this.subtitle,
+        siteTitle: (this.title + ' | ' + this.subtitle),
         logo:
             { imgSrc: logoImg, title: this.siteTitle },
         headerLinks: [
