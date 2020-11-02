@@ -1,119 +1,70 @@
 import React from 'react';
-import * as emailjs from 'emailjs-com';
+import axios from 'axios';
 
-import { Field, Label, Control, Input, Button, Icon, Textarea, Notification } from 'rbx';
+class App extends React.Component {
 
-class ContactPage extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {
             name: '',
             email: '',
-            subject: '',
             message: ''
-        };
-
-        this.handleSubmit = this.handleSubmit.bind(this);
-        this.resetForm = this.resetForm.bind(this);
-        this.handleChange = this.handleChange.bind(this);
+        }
     }
 
-    handleSubmit(event) {
-        event.preventDefault();
-        const { name, email, subject, message } = this.state;
-        const templateParams = {
-            from_name: name,
-            from_email: email,
-            to_name: 'Tom at the Caffeine Team',
-            subject,
-            message_html: message,
-        };
-        emailjs.send(
-            'gmail',
-            'template_iehnoxp',
-            templateParams,
-            'user_goljAlep59GnPER4sQCG0'
-        )
-        this.resetForm();
-    };
+    handleSubmit(e) {
+        e.preventDefault();
+        axios({
+            method: "POST",
+            url: "http://localhost:3002/send",
+            data: this.state
+        }).then((response) => {
+            if (response.data.status === 'success') {
+                alert("Message Sent.");
+                this.resetForm()
+            } else if (response.data.status === 'fail') {
+                alert("Message failed to send.")
+            }
+        })
+    }
 
     resetForm() {
-        this.setState({
-            name: '',
-            email: '',
-            subject: '',
-            message: '',
-        });
-    }
-
-    handleChange(event) {
-        this.setState({ [event.target.name]: event.target.value });
+        this.setState({ name: '', email: '', message: '' })
     }
 
     render() {
-        const { name, email, subject, message, sentMessage } = this.state;
-
         return (
-            <form onSubmit={this.handleSubmit}>
-                <Field>
-                    <Label>Name</Label>
-                    <Control>
-                        <Input
-                            name="name"
-                            type="text"
-                            placeholder="Your first and last name"
-                            value={name}
-                            onChange={this.handleChange}
-                        />
-                    </Control>
-                </Field>
-                <Field>
-                    <Label>Email for contact</Label>
-                    <Control>
-                        <Input
-                            name="email"
-                            type="email"
-                            placeholder="email@gmail.com"
-                            value={email}
-                            onChange={this.handleChange}
-                        />
-                    </Control>
-                </Field>
-                <Field>
-                    <Label>Subject</Label>
-                    <Control>
-                        <Input
-                            name="subject"
-                            type="text"
-                            placeholder="What is the subject?"
-                            value={subject}
-                            onChange={this.handleChange}
-                        />
-                    </Control>
-                </Field>
-                <Field>
-                    <Label>Message</Label>
-                    <Control>
-                        <Textarea
-                            name="message"
-                            placeholder="Tell me more about..."
-                            value={message}
-                            onChange={this.handleChange}
-                        />
-                    </Control>
-                </Field>
-
-                <Field kind="group">
-                    <Control>
-                        <Button color="dark">Send</Button>
-                    </Control>
-                    <Control>
-                        <Button text>Cancel</Button>
-                    </Control>
-                </Field>
-            </form>
+            <div className="App">
+                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                    <div className="form-group">
+                        <label htmlFor="name">Name</label>
+                        <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Message</label>
+                        <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                    </div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                </form>
+            </div>
         );
+    }
+
+    onNameChange(event) {
+        this.setState({ name: event.target.value })
+    }
+
+    onEmailChange(event) {
+        this.setState({ email: event.target.value })
+    }
+
+    onMessageChange(event) {
+        this.setState({ message: event.target.value })
     }
 }
 
-export default ContactPage;
+export default App;
