@@ -16,8 +16,11 @@ class ContactPage extends React.Component {
         e.preventDefault();
         axios({
             method: "POST",
-            url: "https://tjhammer845.github.io/send",
-            data: this.state
+            url: "tom.thecaffeineteam.com/send",
+            data: this.state,
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8',
+            }
         }).then((response) => {
             if (response.data.status === 'success') {
                 alert("Message Sent.");
