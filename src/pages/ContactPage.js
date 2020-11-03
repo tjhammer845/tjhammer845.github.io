@@ -16,7 +16,7 @@ class ContactPage extends React.Component {
         e.preventDefault();
         axios({
             method: "POST",
-            url: "/send",
+            url: "https://tjhammer845.github.io/send",
             data: this.state
         }).then((response) => {
             if (response.data.status === 'success') {
