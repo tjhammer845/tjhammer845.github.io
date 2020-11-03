@@ -1,5 +1,18 @@
 import React from 'react';
-import axios from 'axios';
+
+const axios = require('axios')
+const qs = require('qs')
+
+const url = 'https://tom.thecaffeineteam.com/send'
+const data = this.state
+
+const options = {
+    method: 'POST',
+    headers: { 'content-type': 'application/x-www-form-urlencoded' },
+    data: qs.stringify(data),
+    url
+}
+
 
 class ContactPage extends React.Component {
 
@@ -14,14 +27,7 @@ class ContactPage extends React.Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        axios({
-            method: "POST",
-            url: "https://tom.thecaffeineteam.com/send",
-            data: this.state,
-            headers: {
-                'Content-Type': 'text/plain;charset=utf-8',
-            }
-        }).then((response) => {
+        axios(options).then((response) => {
             if (response.data.status === 'success') {
                 alert("Message Sent.");
                 this.resetForm()
