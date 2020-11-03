@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import qs from 'qs';
 
 
 class ContactPage extends React.Component {
@@ -18,10 +17,8 @@ class ContactPage extends React.Component {
         e.preventDefault();
         axios({
             method: "POST",
-            url: "https://tom.thecaffeineteam.com/send",
-            headers: { 'content-type': 'application/x-www-form-urlencoded' },
-            data: qs.stringify(this.state),
-
+            url: "https://tom.caffeineteam.com/send",
+            data: this.state
         }).then((response) => {
             if (response.data.status === 'success') {
                 alert("Message Sent.");
@@ -31,6 +28,7 @@ class ContactPage extends React.Component {
             }
         })
     }
+
 
     resetForm() {
         this.setState({ name: '', email: '', message: '' })
