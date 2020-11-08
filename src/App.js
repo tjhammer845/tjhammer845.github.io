@@ -78,7 +78,7 @@ class App extends React.Component {
                     <Sticky {...this.state} />
                     <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path='/about' render={() => <AboutPage about={this.state.about} title={this.state.about.title} />} />
-                    <Route path='/workflow' render={() => <WorkflowPage title={this.state.workflow.title} />} />
+                    <Route path='/workflow' render={() => <WorkflowPage workflow={this.state.workflow} title={this.state.workflow.title} />} />
                     <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} />} />
                 </Container>
                 <Footer />
