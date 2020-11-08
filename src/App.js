@@ -9,6 +9,8 @@ import WorkflowPage from './pages/WorkflowPage';
 import ContactPage from './pages/ContactPage';
 import logoImg from './assets/images/logo.png';
 import tomAndBentleyImg from './assets/images/about-image.jpg';
+import workflow1 from './assets/images/workflow1.jpg';
+import workflow2 from './assets/images/workflow2.jpg';
 import './portfolio-styles.css';
 
 
@@ -43,6 +45,21 @@ class App extends React.Component {
             title: 'About Tom'
         },
         workflow: {
+            images: [
+                {
+                    id: 0,
+                    src: workflow1,
+                    title: 'Tom\'s Desk 1',
+                    description: 'Working from home should be efficient'
+                },
+                {
+                    id: 1,
+                    src: workflow2,
+                    title: 'Tom\'s Desk 2',
+                    description: 'Working from home should be painless'
+
+                }
+            ],
             title: 'Tom\'s Workflow'
         },
         contact: {

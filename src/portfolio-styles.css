@@ -233,6 +233,12 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     width: 300px;
     height: 300px;
 }
+
+/* Workflow */
+.workflow-img {
+    width: 500px;
+}
+
 /* Form */
 label {
     font-weight: bold;
