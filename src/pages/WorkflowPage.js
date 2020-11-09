@@ -66,8 +66,9 @@ function WorkflowPage(props) {
                     <li>I design with <a href="" target="_blank">Photoshop</a>, <a href="" target="_blank">Illustrator</a>, and <a href="" target="_blank">XD</a>.</li>
                     <li>For scheduling, I use <a href="" target="_blank">Google Calendar</a>.</li>
                     <li>For general note-taking and to-dos, I prefer <a href="" target="_blank">Evernote</a>.</li>
-                    <li>For project tasks, I’ve grown accustomed to <a href="" target="_blank">Git Projects</a>, <a href="" target="_blank">Jira</a>
-                    and <a href="" target="_blank">Workfront</a>.</li>
+                    <li>For project tasks, I’ve grown accustomed to <a href="" target="_blank">Git Projects</a>,
+                    <a href="" target="_blank">Jira</a>
+                     and <a href="" target="_blank">Workfront</a>.</li>
                     <li>I use <a href="" target="_blank">Outlook</a> for my email client.</li>
                     <li>I'm a big fan of <a href="https://evernote.com/" target="_blank">Evernote</a> for note-taking.</li>
                     <li>I use <a href="https://justgetflux.com/" target="_blank">f.lux</a> to protect my vision. </li>
