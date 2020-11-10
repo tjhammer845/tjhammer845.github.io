@@ -9,7 +9,7 @@ function WorkflowPage(props) {
             <Hero title={props.title} />
             <Content>
                 {props.workflow.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description}
-                    className='workflow-img d-inline-block border-gold m-2 mb-5 w-50' />)}
+                    className='workflow-img d-inline-block border-gold p-2 pb-5 w-50' />)}
                 <p className='lead'>
                     My workflow has been, is and will always be a constant work-in-progress. As I learn and evolve as a developer,
                     I strive to incorporate the new tips, tools, methods and applications I discover that provide greater efficiency to my performance. I've listed out the main components that are typically involved in my everyday workflow, such as equipment,
