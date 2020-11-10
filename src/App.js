@@ -9,8 +9,8 @@ import WorkflowPage from './pages/WorkflowPage';
 import ContactPage from './pages/ContactPage';
 import logoImg from './assets/images/logo.png';
 import tomAndBentleyImg from './assets/images/about-image.jpg';
-import workflow1 from './assets/images/workflow1.jpg';
-import workflow2 from './assets/images/workflow2.jpg';
+import workflow1 from './assets/images/desk1.jpg';
+import workflow2 from './assets/images/desk2.jpg';
 import './portfolio-styles.css';
 
 
