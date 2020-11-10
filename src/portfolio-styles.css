@@ -236,7 +236,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 
 /* Workflow */
 .workflow-img {
-    max-width: 500px;
+    max-width: 48%;
     width: 100%;
 }
 
