@@ -36,7 +36,7 @@ h3 {
     font-size: 1.65rem;
 }
 p, li, a {
-    font-size:1.25rem;
+    font-size:1.5rem;
     font-weight: 300;
 }
 a, a:hover, a:active {
@@ -48,5 +48,5 @@ a, a:hover, a:active {
     h1 {font-size: 2rem}
     h2 {font-size: 1.75rem}
     h3 {font-size: 1.5rem}
-    p, p.lead {font-size: 1.2rem}
+    p, p.lead {font-size: 1.25rem}
 }

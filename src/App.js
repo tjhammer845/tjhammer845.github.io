@@ -39,7 +39,7 @@ class App extends React.Component {
                     id: 0,
                     src: tomAndBentleyImg,
                     title: 'Tom and his nephew Bentley',
-                    description: 'Who doesn\'t love a cute dog pic?'
+                    description: 'Who doesn\'t love a puppy pic?'
                 }
             ],
             title: 'About Tom'
@@ -50,13 +50,13 @@ class App extends React.Component {
                     id: 0,
                     src: workflow1,
                     title: 'Tom\'s Desk 1',
-                    description: 'Working from home should be efficient'
+                    description: 'Working from home should be efficient.'
                 },
                 {
                     id: 1,
                     src: workflow2,
                     title: 'Tom\'s Desk 2',
-                    description: 'Working from home should be painless'
+                    description: 'Working from home should be painless.'
 
                 }
             ],
