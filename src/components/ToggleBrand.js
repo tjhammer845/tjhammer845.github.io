@@ -32,7 +32,7 @@ class ToggleBrand extends React.Component {
             <h1 onClick={this.onClick} title={this.props.title} className='d-inline-block navbar-title m-0'>
                 <img className='logo' src={this.props.logo.imgSrc} alt={this.props.logo.imgSrc} />
                 {this.props.title}</h1>
-            <Toggle hidden={this.state.hidden}>{this.props.subtitle}</Toggle>
+            <Toggle hidden={this.state.hidden}>{this.props.subTitle}</Toggle>
         </div>;
     }
 }

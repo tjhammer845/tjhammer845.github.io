@@ -17,6 +17,7 @@ import './portfolio-styles.css';
 class App extends React.Component {
     state = {
         title: 'Tom Hammer',
+        subTitle: 'Front-End Engineer and Digital Creator',
         siteTitle: 'TH | Front-End Engineer and Digital Creator',
         logo:
             { imgSrc: logoImg, title: this.siteTitle },
