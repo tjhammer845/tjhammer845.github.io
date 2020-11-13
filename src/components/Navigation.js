@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import ToggleBrand from "./ToggleBrand";
