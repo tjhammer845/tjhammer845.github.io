@@ -10,13 +10,13 @@ function WorkflowPage(props) {
             <Content>
                 {props.workflow.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description}
                     className='workflow-img d-inline-block border-gold m-2 mb-5' />)}
-                <p className='lead'>
+                <p className='lead mb-5'>
                     My workflow has been, is and will always be a constant work-in-progress. As I learn and evolve as a developer,
                     I try my best to incorporate the new tips, methods and tools I discover that improve my performance. I've listed out the main components involved in my daily workflow, such as equipment,
                     development tools and productivity applications as well as links to purchase or download. Feel free to reach out to me with any questions!
                         </p>
                 <h2>Equipment</h2>
-                <ul>
+                <ul class="mb-5">
                     <li>I use a <a href='https://www.dell.com/en-us/shop/cty/pdp/spd/xps-15-9500-laptop/xn9500cto212s'
                         target='_blank' rel='noopener noreferrer'>Dell XPS 15 9500 Touch</a> with i9 Processor, 3TB of internal storage and
                     64GB of installed RAM, running on <a href='https://www.microsoft.com/en-us/p/windows-10-pro/' target='_blank' rel='noopener noreferrer'>Windows 10 Pro</a>. </li>
@@ -39,7 +39,7 @@ function WorkflowPage(props) {
                         target='_blank' rel='noopener noreferrer'>Canon Pixma iP8720</a>.</li>
                 </ul>
                 <h2>Development Tools</h2>
-                <ul>
+                <ul class="mb-5">
                     <li>I back up my work to <a href='https://www.github.com/' target='_blank' rel='noopener noreferrer'>Github</a> and every file to <a href='https://drive.google.com/' target='_blank' rel='noopener noreferrer'>Google Drive</a> and <a href='https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage' target='_blank' rel='noopener noreferrer'>OneDrive</a>. </li>
                     <li>As per work, I use <a href='https://visualstudio.microsoft.com/' target='_blank' rel='noopener noreferrer'>Visual Studio</a> for my IDE.</li>
                     <li>As per personal, I use <a href='https://atom.io/' target='_blank' rel='noopener noreferrer'>Atom</a> as my text editor,
@@ -59,7 +59,7 @@ function WorkflowPage(props) {
                     <li>When I hit a roadblock, I turn to <a href='https://stackoverflow.com/' target='_blank' rel='noopener noreferrer'>Stack Overflow</a>. </li>
                 </ul>
                 <h2>Productivity Apps</h2>
-                <ul>
+                <ul class="mb-5">
                     <li>I use <a href='https://www.nurgo-software.com/products/aquasnap' target='_blank' rel='noopener noreferrer'>AquaSnap </a> as my window management tool.</li>
                     <li>I design with <a href='https://www.adobe.com/products/photoshop.html' target='_blank' rel='noopener noreferrer'>Photoshop</a>, <a href='https://www.adobe.com/products/illustrator.html' target='_blank' rel='noopener noreferrer'>Illustrator</a>, and <a href='https://www.adobe.com/products/xd.html' target='_blank' rel='noopener noreferrer'>XD</a>.</li>
                     <li>For scheduling, I use <a href='https://calendar.google.com/' target='_blank' rel='noopener noreferrer'>Google Calendar</a>.</li>
