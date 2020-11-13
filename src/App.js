@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Sticky from './components/Sticky';
 import Footer from './components/Footer';
@@ -19,7 +19,6 @@ class App extends React.Component {
         title: 'Tom Hammer',
         subtitle: 'Front-End Engineer and Digital Creator',
         siteTitle: (this.title + ' | ' + this.subtitle),
-        siteTitle: 'TH | Front-End Engineer and Digital Creator',
         logo:
             { imgSrc: logoImg, title: this.siteTitle },
         headerLinks: [
