@@ -12,8 +12,8 @@ function WorkflowPage(props) {
                     className='workflow-img d-inline-block border-gold m-2 mb-5' />)}
                 <p className='lead'>
                     My workflow has been, is and will always be a constant work-in-progress. As I learn and evolve as a developer,
-                    I strive to incorporate the new tips, tools, methods and applications I discover that provide greater efficiency to my performance. I've listed out the main components that are typically involved in my everyday workflow, such as equipment,
-                    development tools and productivity applications as well as links to where to find each product for purchase.
+                    I try my best to incorporate the new tips, methods and tools I discover that improve my performance. I've listed out the main components involved in my daily workflow, such as equipment,
+                    development tools and productivity applications as well as links to purchase or download. Feel free to reach out to me with any questions!
                         </p>
                 <h2>Equipment</h2>
                 <ul>
@@ -48,7 +48,7 @@ function WorkflowPage(props) {
                     <li>For FTP, I use <a href='https://filezilla-project.org/' target='_blank' rel='noopener noreferrer'>FileZilla</a>.</li>
                     <li>For local testing, I use <a href='https://www.apachefriends.org/index.html' target='_blank' rel='noopener noreferrer'>XAMPP</a>.</li>
                     <li>I debug with <a href='https://developers.google.com/web/tools/chrome-devtools' target='_blank' rel='noopener noreferrer'>Dev Tools</a> and <a href='https://www.mozilla.org/en-US/firefox/developer/' target='_blank' rel='noopener noreferrer'>Firefox Developer</a>.</li>
-                    <li>I check for accessibility with <a href='https://wave.webaim.org/' target='_blank' rel='noopener noreferrer'>WAVE</a>, <a href='https://www.nvaccess.org/' target='_blank' rel='noopener noreferrer'>NVDA</a>, and <a href='https://developers.google.com/web/tools/lighthouse' target='_blank' rel='noopener noreferrer'>Lighthouse</a></li>
+                    <li>I check for accessibility with <a href='https://wave.webaim.org/' target='_blank' rel='noopener noreferrer'>WAVE</a>, <a href='https://www.nvaccess.org/' target='_blank' rel='noopener noreferrer'>NVDA</a>, and <a href='https://developers.google.com/web/tools/lighthouse' target='_blank' rel='noopener noreferrer'>Lighthouse</a>.</li>
                     <li>My favorite CSS framework is <a href='https://getbootstrap.com/' target='_blank' rel='noopener noreferrer'>Bootstrap</a>.</li>
                     <li>My favorite JavaScript framework is <a href='https://jquery.com/' target='_blank' rel='noopener noreferrer'>jQuery</a>.</li>
                     <li>My favorite JavaScript library is <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React</a>.</li>
