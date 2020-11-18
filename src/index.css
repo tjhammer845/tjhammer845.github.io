@@ -42,7 +42,9 @@ p, p.lead, a, li {
 a, a:hover, a:active {
     text-decoration: none;
 }
-
+img {
+    background: #000;
+}
 /* Responsive Media Queries */
 @media (max-width: 991px) {
     h1 {font-size: 2rem}
