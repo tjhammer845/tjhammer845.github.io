@@ -1,72 +1,85 @@
-import React from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
+import Hero from '../components/Hero';
+import Content from '../components/Content';
+import { db } from '../firebase';
 
+const ContactPage = (props) => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
 
-class ContactPage extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: ''
-        }
-    }
-
-    handleSubmit(e) {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        axios({
-            method: "POST",
-            url: "/send",
-            data: this.state
-        }).then((response) => {
-            if (response.data.status === 'success') {
-                alert("Message Sent.");
-                this.resetForm()
-            } else if (response.data.status === 'fail') {
-                alert("Message failed to send.")
-            }
-        })
-    }
+        db.collection('contacts')
+            .add({
+                name: name,
+                email: email,
+                message: message
+            })
+            .then(() => {
+                alert('Message has been submitted.');
+            })
+            .catch((error) => {
+                alert(error.message);
+            });
+        setName('');
+        setEmail('');
+        setMessage('');
+    };
 
-
-    resetForm() {
-        this.setState({ name: '', email: '', message: '' })
-    }
-
-    render() {
-        return (
-            <div className="App">
-                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <div className="form-group">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+    return (
+        <div>
+            <Hero title={props.title} />
+            <Content>
+                <form id='contact-form' className='form' onSubmit={handleSubmit}>
+                    <div className='form-group'>
+                        <label htmlFor='contactName'>Name</label>
+                        <input type='text' className='form-control' id='contactName'
+                            value={name} onChange={(e) => setName(e.target.value)} />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="exampleInputEmail1">Email address</label>
-                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                    <div className='form-group'>
+                        <label htmlFor='contactEmail'>Email</label>
+                        <input type='email' className='form-control' id='contactEmail'
+                            value={email} onChange={(e) => setEmail(e.target.value)} />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="message">Message</label>
-                        <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                    <div className='form-group'>
+                        <label htmlFor='contactMessage'>Message</label>
+                        <textarea className='form-control' rows='5' id='contactMessage'
+                            value={message} onChange={(e) => setMessage(e.target.value)} />
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <div className='form-group'>
+                        <button type='submit' className='btn btn-primary'>Submit</button>
+                    </div>
                 </form>
-            </div>
-        );
-    }
+            </Content>
+        </div>
 
-    onNameChange(event) {
-        this.setState({ name: event.target.value })
-    }
-
-    onEmailChange(event) {
-        this.setState({ email: event.target.value })
-    }
-
-    onMessageChange(event) {
-        this.setState({ message: event.target.value })
-    }
+    );
 }
 
 export default ContactPage;
+
+
+
+
+
+
+// import React from 'react';
+// import Hero from '../components/Hero';
+// import Content from '../components/Content';
+// import ContactForm from '../components/ContactForm';
+
+
+
+// function ContactPage(props) {
+//     return (
+//         <div>
+//             <Hero title={props.title} />
+//             <Content>
+//                 <ContactForm />
+//             </Content>
+//         </div>
+//     );
+// }
+
+// export default ContactPage;
