@@ -22,7 +22,7 @@ const ContactPage = (props) => {
     }
     const sendEmail = () => {
         Axios.post(
-            'https://us-central1-your-app-name.cloudfunctions.net/submit',
+            'https://us-central1-portfolio-contact.cloudfunctions.net/submit',
             formData
         )
             .then(res => {
