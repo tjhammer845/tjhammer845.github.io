@@ -22,7 +22,7 @@ const ContactPage = (props) => {
     }
     const sendEmail = () => {
         Axios.post(
-            'https://us-central1-portfolio-contact.cloudfunctions.net/submit',
+            'https://us-central1-portfolio-contact-21e8f.cloudfunctions.net/submit',
             formData
         )
             .then(res => {
@@ -80,34 +80,6 @@ export default ContactPage
 // import Content from '../components/Content';
 // import { db } from '../firebase';
 
-// const ContactPage = (props) => {
-//     const [name, setName] = useState('');
-//     const [email, setEmail] = useState('');
-//     const [message, setMessage] = useState('');
-
-//     const handleSubmit = (e) => {
-//         e.preventDefault();
-//         setLoader(true)
-
-//         db.collection('contacts')
-//             .add({
-//                 name: name,
-//                 email: email,
-//                 message: message,
-//             })
-//             .then(() => {
-//                 alert('Message has been submitted.');
-//                 setLoader(false);
-//             })
-//             .catch((error) => {
-//                 alert(error.message);
-//             });
-//         setName('');
-//         setEmail('');
-//         setMessage('');
-//     };
-
-//     return (
 //         <div>
 //             <Hero title={props.title} />
 //             <Content>
@@ -134,8 +106,3 @@ export default ContactPage
 //                 </form>
 //             </Content>
 //         </div>
-
-//     );
-// }
-
-// export default ContactPage;
