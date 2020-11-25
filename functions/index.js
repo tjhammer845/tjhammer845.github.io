@@ -22,7 +22,7 @@ exports.submit = functions.https.onRequest((req, res) => {
     if (req.method === 'OPTIONS') {
         res.end()
     } else {
-        cors(req, res, () => {
+        cors()(req, res, () => {
             if (req.method !== 'POST') {
                 return
             }
