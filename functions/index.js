@@ -16,13 +16,11 @@ const mailTransport = nodemailer.createTransport({
 
 exports.submit = functions.https.onRequest((req, res) => {
     res.set('Access-Control-Allow-Origin', '*')
+    res.set('Access-Control-Allow-Methods', 'GET, PUT, POST, OPTIONS')
+    res.set('Access-Control-Allow-Headers', '*')
 
     if (req.method === 'OPTIONS') {
-        // Send response to OPTIONS requests
-        res.set('Access-Control-Allow-Methods', 'GET');
-        res.set('Access-Control-Allow-Headers', 'Content-Type');
-        res.set('Access-Control-Max-Age', '3600');
-        res.status(204).send('');
+        res.end()
     } else {
         cors()(req, res, () => {
             if (req.method !== 'POST') {
