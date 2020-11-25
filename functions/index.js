@@ -1,6 +1,3 @@
-// https://firebase.google.com/docs/functions/write-firebase-functions
-
-
 const functions = require('firebase-functions')
 const nodemailer = require('nodemailer')
 const cors = require('cors')({
