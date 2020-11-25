@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Axios, db } from '../firebase/firebaseConfig'
+import React, { useState } from 'react';
+import { Axios, db } from '../firebase/firebaseConfig';
 
 
 const ContactPage = (props) => {

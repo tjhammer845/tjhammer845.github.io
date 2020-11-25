@@ -1,18 +1,20 @@
-const functions = require('firebase-functions')
-const nodemailer = require('nodemailer')
+const functions = require('firebase-functions');
+const nodemailer = require('nodemailer');
 const cors = require('cors')({
     origin: true
-})
-const gmailEmail = functions.config().gmail.email
-const gmailPassword = functions.config().gmail.password
+});
+const gmailEmail = functions.config().gmail.email;
+const gmailPassword = functions.config().gmail.password;
 
 const mailTransport = nodemailer.createTransport({
-    service: 'gmail',
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
     auth: {
         user: gmailEmail,
         pass: gmailPassword,
     },
-})
+});
 
 exports.submit = functions.https.onRequest((req, res) => {
     res.set('Access-Control-Allow-Origin', '*')
@@ -22,7 +24,7 @@ exports.submit = functions.https.onRequest((req, res) => {
     if (req.method === 'OPTIONS') {
         res.end()
     } else {
-        cors()(req, res, () => {
+        cors(req, res, () => {
             if (req.method !== 'POST') {
                 return
             }
@@ -45,4 +47,4 @@ exports.submit = functions.https.onRequest((req, res) => {
             })
         })
     }
-})
+});
