@@ -79,7 +79,7 @@ class ContactPage extends Component {
                 message: message,
             };
 
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'userID');
+            emailjs.send('service_98zmfwt', 'template_iehnoxp', templateParams, 'user_goljAlep59GnPER4sQCG0');
 
             console.log(`
         --SUBMITTING--
@@ -138,74 +138,76 @@ class ContactPage extends Component {
         return (
             <div className='ContactForm'>
                 <form id='contact-form' onSubmit={this.handleSubmit} noValidate>
-                    <div className='row'>
-                        <div className='col-6'>
-                            <input
-                                type='text'
-                                name='name'
-                                value={this.state.name}
-                                className={`form-control formInput ${formErrors.name.length > 0 ? 'error' : null}`}
-                                onChange={this.handleChange}
-                                placeholder='Name'
-                                noValidate
-                            ></input>
-                            {formErrors.name.length > 0 && (
-                                <span className='errorMessage'>{formErrors.name}</span>
-                            )}
-                        </div>
-
-                        <div className='col-6'>
-                            <input
-                                type='email'
-                                name='email'
-                                value={this.state.email}
-                                className={`form-control formInput ${formErrors.email.length > 0 ? 'error' : null}`}
-                                onChange={this.handleChange}
-                                placeholder='Email'
-                                noValidate
-                            ></input>
-                            {formErrors.email.length > 0 && (
-                                <span className='errorMessage'>{formErrors.email}</span>
-                            )}
-                        </div>
+                    <div className='form-group'>
+                        <label htmlFor='contactName'>Name</label>
+                        <input
+                            type='text'
+                            name='name'
+                            value={this.state.name}
+                            id='contactName'
+                            className={`form-control formInput ${formErrors.name.length > 0 ? 'error' : null}`}
+                            onChange={this.handleChange}
+                            placeholder='Name'
+                            noValidate
+                        ></input>
+                        {formErrors.name.length > 0 && (
+                            <span className='errorMessage'>{formErrors.name}</span>
+                        )}
                     </div>
-
-                    <div className='row'>
-                        <div className='col-6'>
-                            <input
-                                type='subject'
-                                name='subject'
-                                value={this.state.subject}
-                                className={`form-control formInput ${formErrors.subject.length > 0 ? 'error' : null
-                                    }`}
-                                onChange={this.handleChange}
-                                placeholder='Subject'
-                                noValidate
-                            ></input>
-                            {formErrors.subject.length > 0 && (
-                                <span className='errorMessage'>{formErrors.subject}</span>
-                            )}
-                        </div>
-
-                        <div className='col-6'>
-                            <textarea
-                                rows='5'
-                                name='message'
-                                value={this.state.message}
-                                className={`form-control formInput ${formErrors.message.length > 0 ? 'error' : null
-                                    }`}
-                                onChange={this.handleChange}
-                                placeholder='Message'
-                                noValidate
-                            ></textarea>
-                            {formErrors.message.length > 0 && (
-                                <span className='errorMessage'>{formErrors.message}</span>
-                            )}
-                        </div>
+                    <div className='form-group'>
+                        <label htmlFor='contactEmail'>Email</label>
+                        <input
+                            type='email'
+                            name='email'
+                            value={this.state.email}
+                            id='contactEmail'
+                            className={`form-control formInput ${formErrors.email.length > 0 ? 'error' : null}`}
+                            onChange={this.handleChange}
+                            placeholder='Email'
+                            noValidate
+                        ></input>
+                        {formErrors.email.length > 0 && (
+                            <span className='errorMessage'>{formErrors.email}</span>
+                        )}
                     </div>
-                    <button className='submit-btn' type='submit'>
-                        Submit
-          </button>
+                    <div className='form-group'>
+                        <label htmlFor='contactSubject'>Subject</label>
+                        <input
+                            type='subject'
+                            name='subject'
+                            value={this.state.subject}
+                            id='contactSubject'
+                            className={`form-control formInput ${formErrors.subject.length > 0 ? 'error' : null
+                                }`}
+                            onChange={this.handleChange}
+                            placeholder='Subject'
+                            noValidate
+                        ></input>
+                        {formErrors.subject.length > 0 && (
+                            <span className='errorMessage'>{formErrors.subject}</span>
+                        )}
+                    </div>
+                    <div className='form-group'>
+                        <label htmlFor='contactMessage'>Message</label>
+                        <textarea
+                            rows='5'
+                            name='message'
+                            value={this.state.message}
+                            id='contactMessage'
+                            className={`form-control formInput ${formErrors.message.length > 0 ? 'error' : null
+                                }`}
+                            onChange={this.handleChange}
+                            placeholder='Message'
+                            noValidate
+                        ></textarea>
+                        {formErrors.message.length > 0 && (
+                            <span className='errorMessage'>{formErrors.message}</span>
+                        )}
+                    </div>
+                    <div className='form-group'>
+
+                        <button className='submit-btn' type='submit'>Send Message</button>
+                    </div>
                 </form>
                 <ToastContainer />
             </div>
