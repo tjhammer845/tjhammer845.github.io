@@ -90,6 +90,12 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
     top: 1rem;
     right: 0rem;
 }
+.navbar-toggler>.close {
+    display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
 
 /* Logo Toggle */
 .toggle-base {
@@ -239,6 +245,7 @@ button.navbar-toggler { /* mobile hamburger icon positioning */
 .workflow-img {
     max-width: 48%;
     width: 100%;
+    height: auto;
     background: #000;
 }
 

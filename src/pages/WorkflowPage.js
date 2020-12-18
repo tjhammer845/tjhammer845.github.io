@@ -10,7 +10,7 @@ function WorkflowPage(props) {
             <Content>
                 <div className='d-flex justify-content-between'>
                     {props.workflow.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description}
-                        className='workflow-img d-inline-block border-gold m-0 mb-5' />)}
+                        className='workflow-img d-inline-block border-gold h-100 m-0 mb-5' />)}
                 </div>
                 <p className='lead mb-5'>
                     My workflow has been, is and will always be a constant work-in-progress. As I learn and evolve as a developer,

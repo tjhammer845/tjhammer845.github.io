@@ -48,7 +48,7 @@ class ContactPage extends Component {
             closeOnClick: true,
             pauseOnHover: true,
             draggable: false,
-            className: 'submit-feedback success',
+            className: 'rounded submit-feedback success',
         });
     }
 
@@ -60,7 +60,7 @@ class ContactPage extends Component {
             closeOnClick: true,
             pauseOnHover: true,
             draggable: false,
-            className: 'submit-feedback fail',
+            className: 'rounded submit-feedback fail',
         });
     }
 
