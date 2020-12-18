@@ -150,7 +150,6 @@ class ContactPage extends Component {
                                     id='contactName'
                                     className={`form-control formInput ${formErrors.name.length > 0 ? 'error' : null}`}
                                     onChange={this.handleChange}
-                                    placeholder='Name'
                                     noValidate
                                 ></input>
                                 {formErrors.name.length > 0 && (
@@ -166,7 +165,6 @@ class ContactPage extends Component {
                                     id='contactEmail'
                                     className={`form-control formInput ${formErrors.email.length > 0 ? 'error' : null}`}
                                     onChange={this.handleChange}
-                                    placeholder='Email'
                                     noValidate
                                 ></input>
                                 {formErrors.email.length > 0 && (
@@ -183,7 +181,6 @@ class ContactPage extends Component {
                                     className={`form-control formInput ${formErrors.subject.length > 0 ? 'error' : null
                                         }`}
                                     onChange={this.handleChange}
-                                    placeholder='Subject'
                                     noValidate
                                 ></input>
                                 {formErrors.subject.length > 0 && (
@@ -200,7 +197,6 @@ class ContactPage extends Component {
                                     className={`form-control formInput ${formErrors.message.length > 0 ? 'error' : null
                                         }`}
                                     onChange={this.handleChange}
-                                    placeholder='Message'
                                     noValidate
                                 ></textarea>
                                 {formErrors.message.length > 0 && (
@@ -208,8 +204,7 @@ class ContactPage extends Component {
                                 )}
                             </div>
                             <div className='form-group'>
-
-                                <button className='submit-btn' type='submit'>Send Message</button>
+                                <button className='submit-btn btn btn-primary' type='submit'>Send Message</button>
                             </div>
                         </form>
                         <ToastContainer />

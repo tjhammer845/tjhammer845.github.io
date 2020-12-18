@@ -8,8 +8,10 @@ function WorkflowPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-                {props.workflow.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description}
-                    className='workflow-img d-inline-block border-gold m-2 mb-5' />)}
+                <div className='d-flex justify-content-between'>
+                    {props.workflow.images.map(({ id, src, title, description }) => <img key={id} src={src} title={title} alt={description}
+                        className='workflow-img d-inline-block border-gold m-0 mb-5' />)}
+                </div>
                 <p className='lead mb-5'>
                     My workflow has been, is and will always be a constant work-in-progress. As I learn and evolve as a developer,
                     I try my best to incorporate the new tips, methods and tools I discover that improve my performance. I've listed out the main components involved in my daily workflow, such as equipment,
