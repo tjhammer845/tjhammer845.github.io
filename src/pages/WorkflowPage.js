@@ -52,8 +52,9 @@ function WorkflowPage(props) {
                     <li>I debug with <a href='https://developers.google.com/web/tools/chrome-devtools' target='_blank' rel='noopener noreferrer'>Dev Tools</a> and <a href='https://www.mozilla.org/en-US/firefox/developer/' target='_blank' rel='noopener noreferrer'>Firefox Developer</a>.</li>
                     <li>I check for accessibility with <a href='https://wave.webaim.org/' target='_blank' rel='noopener noreferrer'>WAVE</a>, <a href='https://www.nvaccess.org/' target='_blank' rel='noopener noreferrer'>NVDA</a>, and <a href='https://developers.google.com/web/tools/lighthouse' target='_blank' rel='noopener noreferrer'>Lighthouse</a>.</li>
                     <li>My favorite CSS framework is <a href='https://getbootstrap.com/' target='_blank' rel='noopener noreferrer'>Bootstrap</a>.</li>
-                    <li>My favorite JavaScript framework is <a href='https://jquery.com/' target='_blank' rel='noopener noreferrer'>jQuery</a>.</li>
-                    <li>My favorite JavaScript library is <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React</a>.</li>
+                    <li>My favorite JavaScript libraries are <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React</a> and <a href='https://jquery.com/' target='_blank' rel='noopener noreferrer'>jQuery</a>.</li>
+                    <li>My favorite JavaScript framework is <a href='https://www.gatsbyjs.com/' target='_blank' rel='noopener noreferrer'>Gatsby</a>.</li>
+                    <li>My query language of choice is <a href='https://graphql.com/' target='_blank' rel='noopener noreferrer'>GraphQL</a>.</li>
                     <li>I use <a href='https://classic.yarnpkg.com/en/' target='_blank' rel='noopener noreferrer'>Yarn</a> and <a href='https://www.npmjs.com/' target='_blank' rel='noopener noreferrer'>Npm</a> for package management. </li>
                     <li>I use <a href='https://gulpjs.com/' target='_blank' rel='noopener noreferrer'>Gulp</a> to minify, uglify, and concatenate files.</li>
                     <li>I style with <a href='https://sass-lang.com/' target='_blank' rel='noopener noreferrer'>Sass</a> and <a href='http://lesscss.org/' target='_blank' rel='noopener noreferrer'>Less</a>.</li>
